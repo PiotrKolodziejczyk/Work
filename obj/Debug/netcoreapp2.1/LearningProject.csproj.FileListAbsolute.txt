@@ -1,0 +1,11 @@
+A:\LearningProject\obj\Debug\netcoreapp2.1\LearningProject.csprojAssemblyReference.cache
+A:\LearningProject\obj\Debug\netcoreapp2.1\LearningProject.csproj.CoreCompileInputs.cache
+A:\LearningProject\obj\Debug\netcoreapp2.1\LearningProject.AssemblyInfoInputs.cache
+A:\LearningProject\obj\Debug\netcoreapp2.1\LearningProject.AssemblyInfo.cs
+A:\LearningProject\bin\Debug\netcoreapp2.1\LearningProject.deps.json
+A:\LearningProject\bin\Debug\netcoreapp2.1\LearningProject.runtimeconfig.json
+A:\LearningProject\bin\Debug\netcoreapp2.1\LearningProject.runtimeconfig.dev.json
+A:\LearningProject\bin\Debug\netcoreapp2.1\LearningProject.dll
+A:\LearningProject\bin\Debug\netcoreapp2.1\LearningProject.pdb
+A:\LearningProject\obj\Debug\netcoreapp2.1\LearningProject.dll
+A:\LearningProject\obj\Debug\netcoreapp2.1\LearningProject.pdb

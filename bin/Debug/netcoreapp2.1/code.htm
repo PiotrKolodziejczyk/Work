@@ -1,0 +1,2738 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RealMadryt.pl 2.0 – największy polski portal o Królewskich</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/compiled/styles-tmp-2607dba13c29e022b7eb193d69f05e6a7935a90a.e6a00e338e005857a8a783f3904305a4.css" type="text/css" />
+
+<script>
+            dataLayer = [];
+        </script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-585FL4P');</script>
+<meta name="description" content="Codzienne wiadomości o Realu i piłkarzach Zidane'a, analizy spotkań, relacje prosto z Santiago Bernabéu, mnóstwo informacji, artykułów i tłumaczeń" />
+<meta name="twitter:site" content="@realmadryt_pl">
+
+
+<script type='text/javascript'>
+  var googletag = window.googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function (y, i, e, l, d, b, I, R, D) {
+    d.ybck = (i.cookie || '').indexOf('ybjng') > -1;
+    if (!d.ybck) {
+      l.cmd.push(function () {l.pubads().disableInitialLoad();});
+      b = i.createElement('script'); b.async = true;
+      b.src = (e === 'https:' ? 'https:' : 'http:') + '//jscdn.yieldbird.com/' + y + '/yb.v2.js';
+      I = i.getElementsByTagName('script')[0];
+      (I.parentNode || i.head).insertBefore(b, I);
+    } else {l.cmd.push(function () {l.pubads().setTargeting('ybjs', '0');});}
+  })('5a349a49-757e-4938-92e2-b70428cdc596', document, document.location.protocol, googletag, window);
+</script>
+
+</head>
+<body class="mainPage">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-585FL4P"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script id="mustache-header-authenticated" type="text/template">
+
+<div class="ch-header-wrapper rmpl-flex-container rmpl-flex-aligned">
+    <div class="rmpl-flex-item rmpl-height">
+
+        <ul class="user-toolkit rmpl-height">
+            <li class="c-notification__articles js-BubbleBox-Holder user-toolkit__item">
+                <span class="js-BubbleBox-Call notifications__number fn-hidden"></span>
+                <span class="js-BubbleBox-Call user-toolkit-action user-toolkit__news">Najnowsze wiadomości</span>
+                <div class="js-BubbleBox-Box ui-BubbleBox ui-BubbleBoxSimple text-align_left background-color_white notifications-box__news" data-ui-bubblebox-offset="72" data-ui-bubblebox-position="right" data-ui-bubblebox-shift="0" data-ui-bubblebox-width="220">
+                    <ul class="notifications-list"></ul>
+                    <div class="notifications-loader"></div>
+                    <a href="/aktualnosci" class="notifications-more show-more fn-hidden">
+                        Pokaż wszystkie nowe (<span class="count"></span>) od Twojej ostatniej wizyty
+                        <span class="time"></span>
+                    </a>
+                    <p class="notification-none fn-hidden">
+                        Nic nowego od Twojej ostatniej wizyty
+                        <span class="time"></span>
+                    </p>
+                    <a href="/aktualnosci" class="notifications-more notifications-more--older show-older fn-hidden">
+                        Pokaż starsze
+                    </a>
+                </div>
+            </li>
+            <li class="c-notification__settings js-BubbleBox-Holder user-toolkit__item">
+                <span class="js-BubbleBox-Call notifications__number fn-hidden"></span>
+                <span class="js-BubbleBox-Call user-toolkit-action user-toolkit__watch">Obserwowane</span>
+                <div class="js-BubbleBox-Box ui-BubbleBox ui-BubbleBoxSimple text-align_left background-color_white notifications-box__watch" data-ui-bubblebox-offset="72" data-ui-bubblebox-position="right" data-ui-bubblebox-shift="0" data-ui-bubblebox-width="240">
+                    <ul class="notifications-list"></ul>
+                    <div class="notifications-loader"></div>
+                    <a href="/aktualnosci" class="notifications-more show-more fn-hidden">
+                        Pokaż wszystkie nowe (<span class="count"></span>) od Twojej ostatniej wizyty
+                        <span class="time"></span>
+                    </a>
+                    <p class="notification-none fn-hidden">Brak powiadomień</p>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <div class="rmpl-flex-item-auto">
+        <div class="signed-user-box">
+            <div class="js-BubbleBox-Holder">
+                <div class="sub-holder js-BubbleBox-Call ui-BubbleBox-Call box-full_width-vertical_align_middle-inline_all text-align_right cursor-pointer_inherit">
+                    <div class="c-header-menu_handy-user_image box-image">
+                        <img width="40" height="40" src="{{ user.thumbnail }}" class="element-image" alt="avatar" />
+                    </div>
+                    
+                    <strong class="shift-margin_1-right text-color_appblue signed-user-name sun-long-name">
+                        {{ user.displayName }}
+                    </strong>
+                    
+                    <i class="icon-arrow_down-size_1-color_appblue ui-BubbleBox-Call-Arrow shift-margin_1-right"></i>
+                </div>
+                <div class="js-BubbleBox-Box ui-BubbleBox ui-BubbleBoxSimple background-color_white" data-ui-bubblebox-offset="58" data-ui-bubblebox-position="right" data-ui-bubblebox-width="160">
+                    <ul class="signed-user-nav">
+                        <li class="sun-user">
+                            <a href="/ustawienia/dane-podstawowe" target="_self" title="User">
+                                Ustawienia                            </a>
+                        </li>
+                        <li class="sun-settings">
+                            <a href="/ustawienia/zmiana-hasla" target="_self" title="Settings">
+                                Zmień hasło                            </a>
+                        </li>
+                        <li class="sun-logout">
+                            <a href="/logout" target="_self" title="Logout">
+                                Wyloguj                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</script> <script id="mustache-header-anonymous" type="x-tmpl-mustache">
+
+<ul class="user-toolkit">
+    <li class="user-toolkit__item js-BubbleBox-Holder">
+        <span class="js-BubbleBox-Call user-toolkit-action user-toolkit__watch">Obserwowane</span>
+        <div class="js-BubbleBox-Box ui-BubbleBox ui-BubbleBoxSimple text-align_left background-color_white notifications-box__news" data-ui-bubblebox-offset="67" data-ui-bubblebox-position="right" data-ui-bubblebox-shift="0" data-ui-bubblebox-width="220">
+            <p class="notification-none">
+                <a class="decorated" href="/login">Zaloguj się</a>, aby otrzymywać powiadomienia
+            </p>
+            <span class="notifications-more notifications-more--older placeholder" href="#">
+                Nie masz konta?
+                <a class="decorated" href="/rejestracja">Założ teraz</a>
+                w 2 minuty
+            </span>
+        </div>
+    </li>
+</ul>
+<div class="user-actions">
+    <div class="js-BubbleBox-Holder c-header-menu_handy text-align_right">
+        <a href="/rejestracja" target="_self" class="rwd-disabled box-inline text-size_tiny-color_appblue shift-margin_2-right">Załóż konto</a>
+        <button class="js-BubbleBox-Call button-size_4-appblue-rounded_1">Zaloguj</button>
+        <div class="js-BubbleBox-Box ui-Bubble-Box ui-BubbleBoxSimple background-color_lightenesgrey" data-ui-bubblebox-offset="50" data-ui-bubblebox-position="right" data-ui-bubblebox-width="330">
+            <div class="shift-padding_4">
+                <div class="c-header-menu_handy-login box-full_width-grid-vertical_align_middle text-align_left">
+                    <div class="column-width_5">
+                        <span class="text-size_micro">Zaloguj się używając swojego konta w innym serwisie</span>
+                    </div>
+                    <div class="column-width_7 shift-padding_4-left text-align_right">
+                        <a href="/login/oauth/facebook"><i class="facebook icon-size_5-facebook_full"></i></a>
+                        <a href="/login/oauth/twitter"><i class="twitter icon-size_5-twitter_full"></i></a>
+                        <a href="/login/oauth/google"><i class="googleplus icon-size_5-googleplus_full"></i></a>
+                        <a href="/login/oauth/yahoo"><i class="yahoo icon-size_5-yahoo_full"></i></a>
+                        <a href="/login/oauth/microsoft"><i class="windows icon-size_5-windows_full"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="shift-padding_4 border_top-color_lightergrey">
+                <div class="box-full_width-grid text-align_left">
+                    <div class="column-width_12">
+                        <form class="navbarTop-form" action="/login" method="post" data-form-url="/login" novalidate>
+                            <span class="text-size_micro">lub zaloguj przez konto RealMadryt.pl</span>
+                            <fieldset class="box-full_width-inline shift-margin_2-top">
+                                <input type="text" class="input_regular-rounded-scale_6 type-blocked" placeholder="Nazwa użytkownika, e-mail lub nr telefonu" name="_username" value=""/>
+                            </fieldset>
+                            <fieldset class="box-full_width-inline shift-margin_2-top">
+                                <input type="password" class="input_regular-rounded-scale_6 type-blocked" placeholder="Hasło" name="_password" value=""/>
+                            </fieldset>
+                            <fieldset class="js-Checkbox-Holder ui-Checkbox-Holder box-full_width-inline shift-margin_2-top fn-active">
+                                <input id="input-remember-me" name="_remember_me" type="checkbox" checked>
+                                <span class="js-Checkbox-Call js-Checkbox-Dummy ui-Checkbox-Dummy_Square"></span>
+                                <label class="js-Checkbox-Call">Nie wylogowuj mnie</label>
+                            </fieldset>
+                            <div class="box-full_width-grid-vertical_align_middle shift-margin_2-top">
+                                <div class="column">
+                                    <button class="js-GlobalForm-Call button-size_6-appblue-rounded_1" type="submit">Zaloguj się</button>
+                                </div>
+                                <div class="column shift-padding_6-left">
+                                    <a href="/zapomnialem-hasla" target="_self" title="">Nie pamiętam hasła</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="box-full_width shift-padding_4 border_top-color_lightergrey text-align_center create-account-info">
+                <h5>
+                    Nie masz jeszcze konta? <br />
+                    <a href="/rejestracja" class="text-color_appblue" target="_self">Załóż teraz</a>
+                    w 2 minuty.
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+</script>
+
+<header class="js-DockedHeader-Box box-full_width fn-integrated">
+<div class="container-content c-header">
+<div class="c-header-brand">
+<a href="/" class="c-header__logo" target="_self">
+<img src="/img/ui/logo.svg" class="" alt="RealMadryt.pl" />
+</a>
+</div>
+<div id="c-header-ajax-content" class="c-header-options" data-notification-status="/api/v1/notifications/status.json" data-notification-articles="/api/v1/notifications/articles.json" data-notification-system="/api/v1/notifications/system.json">
+
+</div>
+</div>
+</header>
+<main id="content" class="fn-integrated">
+<div class="container-content  background-color_white box-relative">
+<div class="content-top-parts">
+<div class="js-MainNavigation-Mobile-Call c-navigation-mobile-call rwd-disabled background-color_appblue box-full_width-vertical_align-middle cursor-pointer">
+<div class="rmpl-flex-container rmpl-flex-aligned cursor-pointer">
+<script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"4a7b5a793cfe7bc42b0215ecfda522c4ebff28e4-1569861075-1800"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img data-cfsrc="/img/ui/hamburger.png" data-cfstyle="height: 16px; margin: 0 10px" style="display:none;visibility:hidden;" /><noscript><img src="/img/ui/hamburger.png" style="height: 16px; margin: 0 10px" /></noscript>
+<h5 class="cursor-pointer">Menu</h5>
+</div>
+</div>
+<nav class="js-MainNavigation-Holder ui-MainNavigation-Holder c-navigation box-full_width-relative">
+<div class="js-MainNavigation-Mobile-Holder ui-MainNavigation-Mobile-Holder c-navigation-main box-full_width-relative background-color_appblue">
+<span class="js-MainNavigation-Item">
+<a class=" js-mn-mh-contains " href="/aktualnosci">Aktualności</a>
+<div class="js-MainNavigation-Submenu ui-MainNavigation-Submenu c-navigation-main-submenu">
+<a href="/aktualnosci">Aktualności</a>
+<a href="/kontuzjowani">Kontuzje</a>
+</div>
+</span>
+<span class="js-MainNavigation-Item">
+<a class=" js-mn-mh-contains " href="/terminarz">Wyniki</a>
+<div class="js-MainNavigation-Submenu ui-MainNavigation-Submenu c-navigation-main-submenu">
+<a href="/terminarz">Terminarz</a>
+<a href="/rozgrywki/la-liga-2019-2020">La Liga</a>
+</div>
+</span>
+<span class="js-MainNavigation-Item">
+<a class=" js-mn-mh-contains " href="/sklad">Skład</a>
+<div class="js-MainNavigation-Submenu ui-MainNavigation-Submenu c-navigation-main-submenu">
+<a href="/sklad">Pierwsza drużyna</a>
+<a href="/sklad/castilla">Rezerwy (Castilla)</a>
+</div>
+</span>
+<span class="js-MainNavigation-Item">
+<a class=" js-mn-mh-contains " href="/tekst/91202-klub">Klub</a>
+<div class="js-MainNavigation-Submenu ui-MainNavigation-Submenu c-navigation-main-submenu">
+<a href="/tekst/91198-estadio-santiago-bernabeu">Santiago Bernabéu</a>
+<a href="/tekst/91199-osrodek-treningowy-valdebebas">Valdebebas</a>
+<a href="/tekst/91201-hymny">Hymny</a>
+<a href="/tekst/91200-kibice">Kibice</a>
+</div>
+</span>
+<span class="js-MainNavigation-Item">
+<a class=" js-mn-mh-contains " href="/tekst/91197-historia-realu-madryt">Historia</a>
+<div class="js-MainNavigation-Submenu ui-MainNavigation-Submenu c-navigation-main-submenu">
+<a href="/tekst/91197-historia-realu-madryt">Historia klubu</a>
+<a href="/tekst/91203-trenerzy">Trenerzy</a>
+<a href="/tekst/91204-prezesi">Prezesi</a>
+</div>
+</span>
+<span class="js-MainNavigation-Item">
+<a class="" href="/cafe-bernabeu">Café Bernabéu</a>
+</span>
+<span class="js-MainNavigation-Item">
+<a class="" href="https://www.podstadionem.pl/sklep/real-madryt.html?utm_source=realmadryt.pl&amp;utm_medium=text&amp;utm_campaign=menulink" target="_blank">Sklep</a>
+</span>
+</div>
+<div class="js-HiddenBox-Holder ui-HiddenBox-Holder">
+<label for="search-bar"><i class="js-HiddenBox-Call c-navigation-main-search-call icon-search-color_white cursor-pointer"></i></label>
+<div class="js-HiddenBox-Box ui-HiddenBox-Box c-navigation-main-search-field box-full_width">
+<div class="shift-padding_6-horizontal">
+<form method="GET" action="/aktualnosci">
+<fieldset class="box-full_height-relative shift-padding_3-top">
+<input type="text" autocomplete="off" name="search" class="text-size_big-color_white border_bottom shift-padding_2-vertical" id="search-bar" placeholder=" Wpisz frazę">
+<button type="submit">
+<i class="icon-search-color_white"></i>
+</button>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+</nav>
+<div class="gamebar-wrapper gamebar-current- dynamic-match-main-status">
+<section class="gamebar-section is-loading">
+
+<script id="mustache-gamebar-item-regular" type="text/template">
+
+
+
+<div class="gamebar-item gamebar-item-regular gamebar-item-winner gamebar-item-winner--{{status.winner}}">
+    <a class="gamebar-popover-trigger rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified" style="height: 56px" data-date="{{data.day}}">
+        <img class="gamebar-item-arm" src="{{data.icon}}" />
+    </a>
+</div>
+
+
+
+</script>
+<script id="mustache-gamebar-item-empty" type="text/template">
+
+
+
+<div class="gamebar-item gamebar-item-regular">
+    <a class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified" style="height: 56px"></a>
+</div>
+
+
+
+</script>
+<script id="mustache-gamebar-item-current" type="text/template">
+
+
+
+<div class="gamebar-item gamebar-item-current carousel-cell dynamic-match-status {{status.name}}">
+
+    <div class="rmpl-flex-container" style="height: 56px">
+
+        {{#status.isUpcoming}}
+        <div class="rmpl-flex-item-auto gamebar-item-short gamebar-break-ipad-max">
+            <div class="rmpl-height rmpl-flex-container rmpl-flex-aligned">
+                <div class="rmpl-flex-item-auto">
+                    <h6 class="gamebar-approval-trigger {{^data.isDateConfirmed}} not-confirmed {{/data.isDateConfirmed}}">{{data.matchDate}} {{data.startHour}} *</h6>
+                    <h6>{{data.competitionShort}}</h6>
+                    {{#data.detailsLink}}
+                    <h6 class="gamebar-details-link">
+                        <a href="{{data.detailsLink}}" target="_blank">szczegóły</a>
+                    </h6>
+                    {{/data.detailsLink}}
+                </div>
+            </div>
+        </div>
+        <div class="rmpl-flex-item-auto gamebar-item-short gis-filler"></div>
+        {{/status.isUpcoming}}
+        {{^status.isUpcoming}}
+        <div class="rmpl-flex-item-auto gamebar-item-short gis-filler-missing gamebar-break-ipad-min"></div>
+        {{/status.isUpcoming}}
+
+        <div class="gamebar-item-match rmpl-flex-item rmpl-height">
+            <div class="rmpl-flex-container rmpl-height">
+                <div class="rmpl-flex-item">
+                    <div class="rmpl-flex-container rmpl-flex-nowrap rmpl-flex-end rmpl-flex-aligned rmpl-height" style="padding-left: 10px">
+                        <h5 class="gamebar-break-ipad-max" style="text-align: right">
+                            {{data.homeTeam}}
+                        </h5>
+                        <img src="{{data.homeLogo}}" class="gamebar-item-arm" />
+                    </div>
+                </div>
+
+                {{#status.isUpcoming}}
+                <div class="gamebar-item-match-vs rmpl-flex-item-auto">
+                    <div class="rmpl-flex-container rmpl-flex-aligned rmpl-height">
+                        <h4>
+                            VS
+                        </h4>
+                    </div>
+                </div>
+                {{/status.isUpcoming}}
+                {{^status.isUpcoming}}
+                <div class="gamebar-item-match-score rmpl-flex-item-auto gamebar-item-divider">
+                    <div class="rmpl-flex-container rmpl-height rmpl-flex-justified">
+                        <div class="gamebar-item-match-score-bg rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified {{#status.isLive}} live {{/status.isLive}}">
+                            <h4> {{data.homeScore}} </h4>
+                        </div>
+                        <div class="gamebar-item-match-score-bg-divider rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified">
+                            <h5> : </h5>
+                        </div>
+                        <div class="gamebar-item-match-score-bg rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified {{#status.isLive}} live {{/status.isLive}}">
+                            <h4> {{data.awayScore}} </h4>
+                        </div>
+                    </div>
+                </div>
+                {{/status.isUpcoming}}
+
+                <div class="rmpl-flex-item">
+                    <div class="rmpl-flex-container rmpl-flex-nowrap rmpl-flex-start rmpl-flex-aligned rmpl-height" style="padding-right: 10px">
+                        <img src="{{data.awayLogo}}" class="gamebar-item-arm" />
+                        <h5 class="gamebar-break-ipad-max">
+                            {{data.awayTeam}}
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{#showCountdown}}
+        <div class="container-match-countdown rmpl-flex-item-auto gamebar-item-counting gamebar-break-ipad-min">
+            <div class="rmpl-height rmpl-flex-container rmpl-flex-aligned">
+                <div class="rmpl-flex-item-auto">
+                    <h6>Do rozpoczęcia pozostało</h6>
+                    <div class="dynamic-match-countdown">   
+                        <span class="number hh"><strong>00</strong></span>
+                        <span class="unit"><strong>h</strong></span>
+                        <span class="number mm"><strong>00</strong></span>
+                        <span class="unit"><strong>m</strong></span>
+                        <span class="number ss"><strong>00</strong></span>
+                        <span class="unit"><strong>s</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/showCountdown}}
+        {{^showCountdown}}
+        <div class="container-match-countdown rmpl-flex-item-auto gamebar-item-counting gic-filler gamebar-break-ipad-min"></div>
+        {{/showCountdown}}
+    </div>
+
+</div>
+
+
+
+</script>
+<script id="mustache-gamebar-section-rwd" type="text/template">
+
+
+
+    <div class="gamebar-section-rwd-container gamebar-break-ipad-max-show">
+        <div class="gamebar-item-teams rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified rmpl-height">
+
+            <div class="rmpl-flex-item flex-end">
+                <div class="left">
+                    <h5> {{data.homeTeam}} </h5>
+                </div>
+            </div>
+
+            <div class="rmpl-flex-item-auto gamebar-item-divider-small gid-teams"></div>
+
+            <div class="rmpl-flex-item flex-start">
+                <div class="right">
+                    <h5> {{data.awayTeam}} </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{^status.isUpcoming}}
+    <div class="gamebar-section-rwd-container wp dark">
+        <div class="rmpl-flex-container rmpl-flex-justified rmpl-height">
+
+            <div class="gamebar-section-rwd-container lighter gamebar-item-goals gamebar-break-ipad-min rmpl-flex-item flex-end">
+                <div class="left">
+                    <ul>
+                        {{#goals.home}}
+                            <li> {{#goals}} <span>{{minute}}</span> {{/goals}} {{player}} </li>
+                        {{/goals.home}}
+                    </ul>
+                </div>
+            </div>
+
+            {{#data.thatsFalse}}
+            {{#data.hasPenalties}}
+            <div class="gamebar-section-rwd-container dark gamebar-item-penalties rmpl-flex-item flex-end">
+                <div class="left">
+                    <ul>
+                        <li class="goal"> <div class="gamebar-bullet green"> </div> Ronaldo </li>
+                        <li> <div class="gamebar-bullet"> </div> Di Maria </li>
+                        <li class="goal"> <div class="gamebar-bullet green"> </div> Mesut Ozil </li>
+                    </ul>
+                </div>
+            </div>
+            {{/data.hasPenalties}}
+            {{/data.thatsFalse}}
+
+            <div class="gamebar-section-rwd-container dark gamebar-item-information gamebar-item-divider rmpl-flex-item-auto status-{{data.status}}">
+
+                {{#data.hasPenalties}}
+                <div class="heading heading-big">
+                    {{#status.isLive}}
+                        <div class="gamebar-bullet"></div>
+                    {{/status.isLive}}
+                    <h6> karne <span> {{data.penaltiesHomeGoals}}:{{data.penaltiesAwayGoals}} </span> </h6>
+                </div>
+                {{/data.hasPenalties}}
+
+                {{#status.isLive}}
+                {{^data.hasPenalties}}
+                <div class="heading heading-middle" style="margin-top: 3px">
+                    <div class="gamebar-bullet"></div>
+                    <h6> {{data.liveMinute}} </h6>
+                </div>
+                {{/data.hasPenalties}}
+                {{/status.isLive}}
+
+                {{#status.isPast}}
+                <div class="heading heading-small" {{^data.hasPenalties}} style="margin-top: 5px" {{/data.hasPenalties}}>
+                    <h6> koniec meczu </h6>
+                </div>
+                {{/status.isPast}}
+
+                <!-- THEMES
+                <div class="heading heading-small">
+                    <div class="gamebar-bullet"></div>
+                    <h6> trwa przerwa </h6>
+                </div>
+                <div class="heading heading-small">
+                    <h6> mecz przerwany </h6>
+                </div>
+                <div class="heading heading-big">
+                    <div class="gamebar-bullet"></div>
+                    <h6> karne <span> 2:1 </span> </h6>
+                </div>
+                <div class="heading heading-big">
+                    <h6> karne <span> 5:4 </span> </h6>
+                    <p> koniec meczu </p>
+                </div>
+                <div class="heading heading-small">
+                    <h6> koniec meczu </h6>
+                </div>
+                <div class="heading heading-big">
+                    <div class="gamebar-bullet"></div>
+                    <h6> karne <span> 5:4 </span> </h6>
+                </div>
+                <div class="heading heading-middle">
+                    <div class="gamebar-bullet"></div>
+                    <h6> 72' min </h6>
+                </div>
+                <div class="heading heading-big">
+                    <h6> karne <span> 5:4 </span> </h6>
+                    <p> koniec meczu </p>
+                </div>
+                -->
+            </div>
+
+            {{#data.thatsFalse}}
+            {{#data.hasPenalties}}
+            <div class="gamebar-section-rwd-container dark gamebar-item-penalties rmpl-flex-item flex-start">
+                <div class="right">
+                    <ul>
+                        <li class="goal"> <div class="gamebar-bullet green"> </div> Iniesta </li>
+                        <li> <div class="gamebar-bullet"> </div> Puyol </li>
+                        <li> <div class="gamebar-bullet"> </div> Leo Messi </li>
+                    </ul>
+                </div>
+            </div>
+            {{/data.hasPenalties}}
+            {{/data.thatsFalse}}
+
+            <div class="gamebar-section-rwd-container lighter gamebar-item-goals gamebar-break-ipad-min rmpl-flex-item flex-start">
+                <div class="right">
+                    <ul>
+                        {{#goals.away}}
+                            <li> {{#goals}} <span>{{minute}}</span> {{/goals}} {{player}} </li>
+                        {{/goals.away}}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="gamebar-section-rwd-container gamebar-break-ipad-min-show wp lighter">
+        <div class="rmpl-flex-container rmpl-flex-justified rmpl-height">
+
+            <div class="gamebar-section-rwd-container nb wb gamebar-item-goals rmpl-flex-item flex-end">
+                <div class="left">
+                    <ul>
+                        {{#goals.home}}
+                            <li> {{#goals}} <span>{{minute}}</span> {{/goals}} {{player}} </li>
+                        {{/goals.home}}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="gamebar-section-rwd-container wb gamebar-item-divider-small rmpl-flex-item-auto"></div>
+
+            <div class="gamebar-section-rwd-container nb wb gamebar-item-goals rmpl-flex-item flex-start">
+                <div class="right">
+                    <ul>
+                        {{#goals.away}}
+                            <li> {{#goals}} <span>{{minute}}</span> {{/goals}} {{player}} </li>
+                        {{/goals.away}}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    {{/status.isUpcoming}}
+
+    {{#status.isUpcoming}}
+    <div class="gamebar-section-rwd-container gamebar-item-short-break gamebar-break-ipad-max-show">
+        <div class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified rmpl-height">
+            <div class="rmpl-flex-item gamebar-item-short">
+                <h6 style="{{#data.detailsLink}} padding-left: 190px {{/data.detailsLink}}">{{data.matchDate}} {{data.startHour}}, {{data.competition}}</h6>
+            </div>
+            {{#data.detailsLink}}
+            <div class="rmpl-flex-item-auto gamebar-item-short" style="min-width: 190px">
+                <h6 class="gamebar-details-link">
+                    <a href="{{data.detailsLink}}" target="_blank">szczegóły</a>
+                </h6>
+            </div>
+            {{/data.detailsLink}}
+        </div>
+    </div>
+    <div class="gamebar-section-rwd-container gamebar-break-ipad-min-show">
+        <div class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified rmpl-height rmpl-extended">
+            <div class="gamebar-item-short">
+                <h6>{{data.matchDate}} {{data.startHour}}, {{data.competition}}</h6>
+                {{#data.detailsLink}}
+                <h6 class="gamebar-details-link" style="margin-top: 5px">
+                    <a href="{{data.detailsLink}}" target="_blank">szczegóły</a>
+                </h6>
+                {{/data.detailsLink}}
+            </div>
+        </div>
+    </div>
+
+    {{#showCountdown}}
+    <div class="container-match-countdown gamebar-section-rwd-container light gamebar-break-ipad-min-show">
+        <div class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified rmpl-height">
+            <div class="rmpl-flex-item-auto gamebar-item-counting">
+                <h6>Do rozpoczęcia pozostało</h6>
+                <div class="dynamic-match-countdown">
+                    <span class="number hh"><strong>00</strong></span>
+                    <span class="unit"><strong>h</strong></span>
+                    <span class="number mm"><strong>00</strong></span>
+                    <span class="unit"><strong>m</strong></span>
+                    <span class="number ss"><strong>00</strong></span>
+                    <span class="unit"><strong>s</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/showCountdown}}
+    {{/status.isUpcoming}}
+
+
+
+</script>
+<script id="mustache-gamebar-popover" type="text/template">
+
+
+
+<div class="gamebar-popover">
+    <div class="gamebar-popover-short">
+        <div class="rmpl-flex-container rmpl-flex-aligned">
+            <div class="rmpl-flex-item">
+                <h6 class="orange-heading"> {{data.weekDay}}, {{data.matchDate}} {{data.startHour}} </h6>
+                <h6> {{data.competition}} </h6>
+            </div>
+            {{#status.isLive}}
+            <div class="rmpl-flex-item-auto">
+                <h5>
+                    {{data.liveMinute}}
+                </h5>
+            </div>
+            {{/status.isLive}}
+        </div>
+    </div>
+    <div class="gamebar-popover-game first">
+        <div class="rmpl-flex-container rmpl-flex-space rmpl-flex-nowrap">
+            <div class="gamebar-popover-game-team">
+                <div class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-nowrap rmpl-height">
+                    <div>
+                        <img src="{{data.homeLogo}}" />
+                    </div>
+                    <div>
+                        <h4> {{data.homeTeam}} </h4>
+                        {{^status.isUpcoming}}
+                        <div class="gamebar-popover-game-details">
+                            {{#goals.home}}
+                                <h6> {{#goals}} <span>{{minute}}</span> {{/goals}} {{player}} </h6>
+                            {{/goals.home}}
+                        </div>
+                        {{/status.isUpcoming}}
+                    </div>
+                </div>
+            </div>
+            {{^status.isUpcoming}}
+            <div class="gamebar-popover-game-score {{#status.isLive}} live {{/status.isLive}}">
+                <div class="rmpl-flex-container rmpl-flex-aligned rmpl-height">
+                    <h3> {{data.homeScore}} </h3>
+                </div>
+            </div>
+            {{/status.isUpcoming}}
+        </div>
+    </div>
+    <div class="gamebar-popover-game">
+        <div class="rmpl-flex-container rmpl-flex-space rmpl-flex-nowrap">
+            <div class="gamebar-popover-game-team">
+                <div class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-nowrap rmpl-height">
+                    <div>
+                        <img src="{{data.awayLogo}}" />
+                    </div>
+                    <div>
+                        <h4> {{data.awayTeam}} </h4>
+                        {{^status.isUpcoming}}
+                        <div class="gamebar-popover-game-details">
+                            {{#goals.away}}
+                                <h6> {{#goals}} <span>{{minute}}</span> {{/goals}} {{player}} </h6>
+                            {{/goals.away}}
+                        </div>
+                        {{/status.isUpcoming}}
+                    </div>
+                </div>
+            </div>
+            {{^status.isUpcoming}}
+            <div class="gamebar-popover-game-score {{#status.isLive}} live {{/status.isLive}}">
+                <div class="rmpl-flex-container rmpl-flex-aligned rmpl-height">
+                    <h3> {{data.awayScore}} </h3>
+                </div>
+            </div>
+            {{/status.isUpcoming}}
+        </div>
+    </div>
+    <div class="gamebar-popover-links">
+        <ul>
+            {{#data.matchBarLinks}}
+            <li class="gamebar-details-link">
+                <a target="_blank" href="{{url}}" style="padding-left: 8px">{{caption}}</a>
+            </li>
+            <li class="gamebar-details-link">
+                <a target="_blank" href="{{url}}" style="padding-left: 8px">{{caption}}</a>
+            </li>
+            {{/data.matchBarLinks}}
+        </ul>
+    </div>
+</div>
+
+
+
+</script>
+<template id="template-gamebar-popover-loader">
+<div id="gamebar-popover-tippy" class="gamebar-popover">
+<div class="gamebar-popover-short" style="min-width: 250px">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<div class="rmpl-flex-item">
+<h6 class="orange-heading"> wczytywanie... </h6>
+</div>
+</div>
+</div>
+</div>
+</template>
+<script id="mustache-gamebar-section-sponsors" type="text/template">
+
+
+
+{{#show.both}}
+<div class="rmpl-flex-container gamebar-sponsors-container {{ css }} {{#countdown}} gss-countdown {{/countdown}}">
+    {{#show.player}}
+    <div class="rmpl-flex-item gamebar-sponsors-player">
+        <p class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified"> 
+            <span class="gs-ipad-max-hide"> Ten mecz możesz obejrzeć na </span>
+            <span class="gs-ipad-max-show"> Oglądaj na </span>
+            <a href="{{ data.playerLink }}" target="_BLANK">
+                <img src="/img/matchbar/player.png" />
+            </a>
+        </p>
+    </div>
+    {{/show.player}}
+    {{#show.bets}}
+    <div class="rmpl-flex-item gamebar-sponsors-bets">
+        <a href="{{ data.betsLink }}" target="_BLANK" class="rmpl-flex-container rmpl-height rmpl-flex-nowrap">
+            <div class="rmpl-flex-item-auto rmpl-flex-container rmpl-flex-aligned gamebar-bets">
+                <div class="rmpl-flex-container rmpl-flex-item-auto gamebar-bet-item">
+                    <div class="gamebar-bet-item-type"> 1 </div>
+                    <div class="gamebar-bet-item-course"> {{ data.bet1 }} </div>
+                </div>
+                <div class="rmpl-flex-container rmpl-flex-item-auto gamebar-bet-item">
+                    <div class="gamebar-bet-item-type"> X </div>
+                    <div class="gamebar-bet-item-course"> {{ data.betX }} </div>
+                </div>
+                <div class="rmpl-flex-container rmpl-flex-item-auto gamebar-bet-item">
+                    <div class="gamebar-bet-item-type"> 2 </div>
+                    <div class="gamebar-bet-item-course"> {{ data.bet2 }} </div>
+                </div>
+            </div>
+            <div class="rmpl-flex-item-auto gamebar-sponsors-bets-hrefs">
+                <p class="rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified">
+                    <img class="gsb-arrow gs-ipad-max-hide" src="/img/matchbar/arrow.png" />
+                    <span class="gs-ipad-max-hide"> Wytypuj mecz w </span>
+                    <img class="gsb-img" src="/img/matchbar/etoto.png" />
+                </p>
+            </div>
+        </a>
+    </div>
+    {{/show.bets}}
+</div>
+{{/show.both}}
+
+
+
+</script> 
+<div class="gamebar-section-loader rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified">
+<div class="rmpl-flex-item-auto">
+<img src="/img/loader-light_circle.svg" />
+</div>
+</div>
+<div class="gamebar-section-desktop rmpl-flex-container rmpl-flex-aligned rmpl-flex-justified">
+<nav class="gamebar-nav gamebar-nav-left rmpl-flex-item-auto disabled">
+<button>
+<i class="icon-triangle_left"></i>
+</button>
+</nav>
+<div class="gamebar-list rmpl-flex-item rmpl-flex-aligned">
+</div>
+<nav class="gamebar-nav gamebar-nav-right rmpl-flex-item-auto">
+<button>
+<i class="icon-triangle_right"></i>
+</button>
+</nav>
+</div>
+<div class="gamebar-section-rwd"></div>
+<div class="gamebar-section-sponsors"></div>
+</section>
+</div>
+<div class="rmpl-adsense-desktop shift-padding_2-bottom">
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_top_970x250" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_top_970x250" data-script-slot="/52555387/rmadryt.pl_HP_top_970x250" data-script-args="[[970, 250], [970, 90], [750, 200]]" data-mobile="0">
+</div>
+</div>
+</div>
+<div class="rmpl-adsense-mobile shift-padding_2-bottom">
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_top_336x280_mobile" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_top_336x280_mobile" data-script-slot="/52555387/rmadryt.pl_HP_top_336x280_mobile" data-script-args="[[336, 280], [300, 250]]" data-mobile="1">
+</div>
+</div>
+</div>
+</div>
+<section class="c-news shift-margin_2-top">
+<div class="c-news-main">
+<div class="c-news-main-banner c-news-main-banner box-full_width-grid">
+<div class="column-width_8">
+<div class="c-news-mainPage-banner-photo box-full_width-image-relative rmpl-animation opacity" onclick="window.location.href = '/news/91530-hazard-czuje-sie-gotowy-na-100-i-to-ja-musze-pokazac-ze-moge-byc-najlepszy-na-swiecie'">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91530-hazard-czuje-sie-gotowy-na-100-i-to-ja-musze-pokazac-ze-moge-byc-najlepszy-na-swiecie#c-comments" target="_self">14</a>
+</span>
+<img data-cfsrc="/static/images/photo/1deb3a98-9b28-4a3a-b543-4583e3cdc797.jpg" class="element-image-full_height" alt="Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/1deb3a98-9b28-4a3a-b543-4583e3cdc797.jpg" class="element-image-full_height" alt="Photo" /></noscript>
+<div class="box-full_width_height-rel c-news-main-content">
+<article class="box-full_width">
+<div class="c-news-main-created-at">
+<p> 30.09.2019, godz. 16:51 </p>
+</div>
+<div class="c-news-main-header">
+<a href="/news/91530-hazard-czuje-sie-gotowy-na-100-i-to-ja-musze-pokazac-ze-moge-byc-najlepszy-na-swiecie" target="_self">
+<strong class="cfs">
+<h2 class="text-color_white">Hazard: Czuję się gotowy na 100% i to ja muszę pokazać, że mogę być najlepszy na świecie</h2>
+</strong>
+</a>
+</div>
+<div class="c-news-main-desc">
+<p class="text-color_white">Belg pojawił się na przedmeczowej konferencji prasowej</p>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="column-width_4 rwd-break_portrait_iphone6-cut_full rwd-break_tablet-cut_full shift-padding_3-horizontal trends-main-page-desktop">
+<div class="shift-padding_2-bottom">
+<h3 class="rmpl-heading rmpl-heading-md">
+<img data-cfsrc="/img/ui/main-logo-micro.jpg" data-cfstyle="height: 22px" style="display:none;visibility:hidden;" /><noscript><img src="/img/ui/main-logo-micro.jpg" style="height: 22px" /></noscript>
+Polecamy </h3>
+</div>
+<div class="shift-padding_6-right rwd-break_portrait_iphone6-reset_padding_right">
+<div class="c-news-mainPage-banner-list shift-padding_2-top border_top-color_lightergrey">
+<ul>
+<li class="shift-padding_2">
+<a href="/news/91228-nowy-realmadryt-pl" target="_self" class="shift-margin_1-horizontal">
+<div class="rmpl-flex-container rmpl-flex-space rmpl-flex-aligned">
+<strong class="rmpl-flex-item-auto" style="max-width: 100%">Nowy RealMadryt.pl!</strong>
+</div>
+</a>
+</li>
+<li class="shift-padding_2">
+<a href="/cafe-bernabeu" target="_self" class="shift-margin_1-horizontal">
+<div class="rmpl-flex-container rmpl-flex-space rmpl-flex-aligned">
+<strong class="rmpl-flex-item-auto" style="max-width: 100%">Podyskutuj w Café Bernabéu</strong>
+</div>
+</a>
+</li>
+<li class="shift-padding_2">
+<a href="https://www.podstadionem.pl/sklep/real-madryt.html?utm_source=realmadryt.pl&amp;utm_medium=text&amp;utm_campaign=home_polecamy" target="_blank" class="shift-margin_1-horizontal">
+<div class="rmpl-flex-container rmpl-flex-space rmpl-flex-aligned">
+<strong class="rmpl-flex-item-auto" style="max-width: 100%">Nowe koszulki 2019/20</strong>
+<span class="rmpl-flex-item-auto gl-tag-color_lightblue">sponsorowane</span>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div style="position: absolute; bottom: 0">
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_300x250_top_right" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_300x250_top_right" data-script-slot="/52555387/rmadryt.pl_HP_300x250_top_right" data-script-args="[[300, 250]]" data-mobile="0">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="c-news-main-feed shift-padding_2-top">
+<ul class="box-full_width_height_flexible-grid">
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91529-wspanialy-tydzien-rodrygo#c-comments" target="_self">2</a>
+</span>
+<a href="/news/91529-wspanialy-tydzien-rodrygo" target="_self">
+<figure class="box-image">
+<img data-cfsrc="/static/images/photo/34034a8f-9322-438a-b6c9-9b8f5e009233.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/34034a8f-9322-438a-b6c9-9b8f5e009233.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 17:48</h6>
+<p class="fgc-title text-size_small"><strong>Wspaniały tydzień Rodrygo</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">Brazylijczyk znacznie poprawił swoją sytuację</p>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91531-atletico-wniesie-o-zawieszenie-ramosa#c-comments" target="_self">20</a>
+</span>
+<a href="/news/91531-atletico-wniesie-o-zawieszenie-ramosa" target="_self">
+<figure class="box-image">
+<img data-cfsrc="/static/images/photo/5eab2e90-1acd-45ee-ada1-037aec0ceb8e.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/5eab2e90-1acd-45ee-ada1-037aec0ceb8e.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 15:52</h6>
+<p class="fgc-title text-size_small"><strong>Atlético wniesie o zawieszenie Ramosa?</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">Media spekulują o potencjalnej karze dla kapitana</p>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91527-wyeksploatowany-casemiro#c-comments" target="_self">16</a>
+</span>
+<a href="/news/91527-wyeksploatowany-casemiro" target="_self">
+<figure class="box-image">
+<img data-cfsrc="/static/images/photo/a01954d9-4407-420a-9260-fdbdbce7bc69.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/a01954d9-4407-420a-9260-fdbdbce7bc69.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 14:56</h6>
+<p class="fgc-title text-size_small"><strong>Wyeksploatowany Casemiro</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">Brazylijczyk praktycznie nie odpoczywa</p>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91528-zidane-dobra-obrona-nie-przeszkadza-dobremu-atakowi#c-comments" target="_self">16</a>
+</span>
+<a href="/news/91528-zidane-dobra-obrona-nie-przeszkadza-dobremu-atakowi" target="_self">
+<figure class="box-image">
+<img data-cfsrc="/static/images/photo/049d30e7-7c5d-4c03-a0f1-bf988e5aaa10.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/049d30e7-7c5d-4c03-a0f1-bf988e5aaa10.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 14:00</h6>
+<p class="fgc-title text-size_small"><strong>Zidane: Dobra obrona nie przeszkadza dobremu atakowi</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">Wypowiedzi trenera z przedmeczowej konferencji prasowej</p>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91526-ostatni-trening-przed-meczem-z-club-brugge#c-comments" target="_self">2</a>
+</span>
+<a href="/news/91526-ostatni-trening-przed-meczem-z-club-brugge" target="_self">
+<figure class="box-image">
+<img data-cfsrc="/static/images/photo/48cb7187-6326-4ca8-afd4-0141ef9897c1.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/48cb7187-6326-4ca8-afd4-0141ef9897c1.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 13:10</h6>
+<p class="fgc-title text-size_small"><strong>Ostatni trening przed meczem z Club Brugge</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">Marcelo ćwiczył z drużyną</p>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91525-georgi-kabakow-na-club-brugge#c-comments" target="_self">0</a>
+</span>
+<a href="/news/91525-georgi-kabakow-na-club-brugge" target="_self">
+<figure class="box-image">
+<img data-cfsrc="/static/images/photo/8d446819-4981-4691-8fcf-4d2aad65d597.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/8d446819-4981-4691-8fcf-4d2aad65d597.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 12:29</h6>
+<p class="fgc-title text-size_small"><strong>Georgi Kabakow na Club Brugge</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">33-latek poprowadzi jutrzejsze spotkanie</p>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91524-laso-carroll-doznal-naciagniecia-miesni-w-odcinku-szyjnym#c-comments" target="_self">0</a>
+</span>
+<a href="/news/91524-laso-carroll-doznal-naciagniecia-miesni-w-odcinku-szyjnym" target="_self">
+<figure class="box-image">
+ <img data-cfsrc="/static/images/photo/9ffcb699-73c8-409e-86aa-2c2633ced935.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/9ffcb699-73c8-409e-86aa-2c2633ced935.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 11:32</h6>
+<p class="fgc-title text-size_small"><strong>Laso: Carroll doznał naciągnięcia mięśni w odcinku szyjnym</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">Wypowiedzi trenera po meczu z Murcią</p>
+</figcaption>
+</figure>
+</a>
+</li>
+<li class="column-width_3 rwd-break_portrait_iphone6-cut_half rwd-break_tablet-cut_half rmpl-animation opacity">
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91523-zmiana-mentalnosci#c-comments" target="_self">24</a>
+</span>
+<a href="/news/91523-zmiana-mentalnosci" target="_self">
+<figure class="box-image">
+<img data-cfsrc="/static/images/photo/e8b71a84-e46d-4d69-9cca-35fc2056d7f7.jpg" class="element-image" alt="News Photo" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/e8b71a84-e46d-4d69-9cca-35fc2056d7f7.jpg" class="element-image" alt="News Photo" /></noscript>
+<figcaption>
+<h6 class="shift-margin_2-bottom text-color_grey-size_micro">30.09.2019, 10:30</h6>
+<p class="fgc-title text-size_small"><strong>Zmiana mentalności</strong></p>
+<p class="fgc-desc text-size_tiny-color_grey">Punkt zwrotny miał miejsce w Paryżu</p>
+</figcaption>
+</figure>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<div class="shift-padding_3-horizontal shift-padding_4-bottom trends-mobile">
+<div class="shift-padding_2">
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_336x280_mobile" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_336x280_mobile" data-script-slot="/52555387/rmadryt.pl_HP_336x280_mobile" data-script-args="[[336, 280], [300, 250]]" data-mobile="1">
+</div>
+</div>
+</div>
+<div class="shift-padding_2">
+<h3 class="rmpl-heading rmpl-heading-md">
+<img data-cfsrc="/img/ui/main-logo-micro.jpg" data-cfstyle="height: 22px" style="display:none;visibility:hidden;" /><noscript><img src="/img/ui/main-logo-micro.jpg" style="height: 22px" /></noscript>
+Polecamy </h3>
+</div>
+<div class="shift-padding_6-right rwd-break_portrait_iphone6-reset_padding_right">
+<div class="c-news-mainPage-banner-list shift-padding_2-top border_top-color_lightergrey">
+<ul>
+<li class="shift-padding_2">
+<a href="/news/91228-nowy-realmadryt-pl" target="_self" class="shift-margin_1-horizontal">
+<div class="rmpl-flex-container rmpl-flex-space rmpl-flex-aligned">
+<strong class="rmpl-flex-item-auto" style="max-width: 100%">Nowy RealMadryt.pl!</strong>
+</div>
+</a>
+</li>
+<li class="shift-padding_2">
+<a href="/cafe-bernabeu" target="_self" class="shift-margin_1-horizontal">
+<div class="rmpl-flex-container rmpl-flex-space rmpl-flex-aligned">
+<strong class="rmpl-flex-item-auto" style="max-width: 100%">Podyskutuj w Café Bernabéu</strong>
+</div>
+</a>
+</li>
+<li class="shift-padding_2">
+<a href="https://www.podstadionem.pl/sklep/real-madryt.html?utm_source=realmadryt.pl&amp;utm_medium=text&amp;utm_campaign=home_polecamy" target="_blank" class="shift-margin_1-horizontal">
+<div class="rmpl-flex-container rmpl-flex-space rmpl-flex-aligned">
+<strong class="rmpl-flex-item-auto" style="max-width: 100%">Nowe koszulki 2019/20</strong>
+<span class="rmpl-flex-item-auto gl-tag-color_lightblue">sponsorowane</span>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<section class="c-notes shift-padding_2-top">
+<div class="c-notes-main box-full_width_height_flexible-grid">
+<div class="column-width_8 rwd-break_portrait_iphone6-cut_full rwd-break_tablet-cut_full">
+<div class="c-notes-main-dayly">
+<h6 class="background-color_appblue"><strong class="text-color_white-size_small">Dzisiaj</strong></h6>
+<ul>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91522-hazard-nie-moze-sie-podniesc">
+<p>
+<time class="text-color_grey-size_micro">09:28</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91522-hazard-nie-moze-sie-podniesc">
+<p class="shift-padding_3-right">
+<span>Hazard nie może się podnieść</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91522-hazard-nie-moze-sie-podniesc#c-comments" target="_self">128</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91521-niespodziewany-problem-bogactwa-wariantow-w-srodku-pola">
+<p>
+<time class="text-color_grey-size_micro">08:31</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91521-niespodziewany-problem-bogactwa-wariantow-w-srodku-pola">
+<p class="shift-padding_3-right">
+<span>Niespodziewany problem bogactwa wariantów w środku pola</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91521-niespodziewany-problem-bogactwa-wariantow-w-srodku-pola#c-comments" target="_self">27</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91520-dzisiejsze-okladki">
+<p>
+<time class="text-color_grey-size_micro">00:43</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91520-dzisiejsze-okladki">
+<p class="shift-padding_3-right">
+<span>Dzisiejsze okładki</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91520-dzisiejsze-okladki#c-comments" target="_self">23</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="c-notes-main-dayly shift-margin_2-top">
+<h6 class="background-color_appblue"><strong class="text-color_white-size_small">Wczoraj</strong></h6>
+<ul>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91519-7-kolejka-sevilla-awansuje-w-tabeli-porazka-realu-sociedad">
+<p>
+<time class="text-color_grey-size_micro">23:06</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91519-7-kolejka-sevilla-awansuje-w-tabeli-porazka-realu-sociedad">
+<p class="shift-padding_3-right">
+<span>7. kolejka: Sevilla awansuje w tabeli, porażka Realu Sociedad</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91519-7-kolejka-sevilla-awansuje-w-tabeli-porazka-realu-sociedad#c-comments" target="_self">27</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91518-bardzo-latwe-zwyciestwo-z-murcia">
+<p>
+<time class="text-color_grey-size_micro">22:31</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91518-bardzo-latwe-zwyciestwo-z-murcia">
+<p class="shift-padding_3-right">
+<span>Bardzo łatwe zwycięstwo z Murcią</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91518-bardzo-latwe-zwyciestwo-z-murcia#c-comments" target="_self">2</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91517-mignolet-nie-mozemy-pojechac-do-madrytu-tylko-po-to-by-podziwiac-bernabeu">
+<p>
+<time class="text-color_grey-size_micro">18:52</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91517-mignolet-nie-mozemy-pojechac-do-madrytu-tylko-po-to-by-podziwiac-bernabeu">
+<p class="shift-padding_3-right">
+<span>Mignolet: Nie możemy pojechać do Madrytu tylko po to, by podziwiać Bernabéu</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91517-mignolet-nie-mozemy-pojechac-do-madrytu-tylko-po-to-by-podziwiac-bernabeu#c-comments" target="_self">6</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91505-butragueno-zasluzylismy-na-zwyciestwo">
+<p>
+<time class="text-color_grey-size_micro">17:54</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91505-butragueno-zasluzylismy-na-zwyciestwo">
+<p class="shift-padding_3-right">
+<span>Butragueño: Zasłużyliśmy na zwycięstwo</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91505-butragueno-zasluzylismy-na-zwyciestwo#c-comments" target="_self">29</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91516-superpuchar-hiszpanii-zostanie-rozegrany-w-arabii-saudyjskiej">
+<p>
+ <time class="text-color_grey-size_micro">16:56</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91516-superpuchar-hiszpanii-zostanie-rozegrany-w-arabii-saudyjskiej">
+<p class="shift-padding_3-right">
+<span>Superpuchar Hiszpanii zostanie rozegrany w Arabii Saudyjskiej?</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91516-superpuchar-hiszpanii-zostanie-rozegrany-w-arabii-saudyjskiej#c-comments" target="_self">13</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91513-zidane-zawodnicy-czuli-ze-bylo-tu-miejsce-na-zdobycie-3-punktow">
+<p>
+<time class="text-color_grey-size_micro">15:58</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91513-zidane-zawodnicy-czuli-ze-bylo-tu-miejsce-na-zdobycie-3-punktow">
+<p class="shift-padding_3-right">
+<span>Zidane: Zawodnicy czuli, że było tu miejsce na zdobycie 3 punktów</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91513-zidane-zawodnicy-czuli-ze-bylo-tu-miejsce-na-zdobycie-3-punktow#c-comments" target="_self">37</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91500-przetarcie-przed-inauguracja-euroligi">
+<p>
+<time class="text-color_grey-size_micro">15:00</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91500-przetarcie-przed-inauguracja-euroligi">
+<p class="shift-padding_3-right">
+<span>Przetarcie przed inauguracją Euroligi</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+ <span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91500-przetarcie-przed-inauguracja-euroligi#c-comments" target="_self">3</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91515-krolewscy-rozpoczeli-przygotowania-na-club-brugge">
+<p>
+<time class="text-color_grey-size_micro">14:09</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91515-krolewscy-rozpoczeli-przygotowania-na-club-brugge">
+<p class="shift-padding_3-right">
+<span>Królewscy rozpoczęli przygotowania na Club Brugge</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91515-krolewscy-rozpoczeli-przygotowania-na-club-brugge#c-comments" target="_self">7</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91514-oceny-zawodnikow-po-meczu-z-atletico">
+<p>
+<time class="text-color_grey-size_micro">13:18</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91514-oceny-zawodnikow-po-meczu-z-atletico">
+<p class="shift-padding_3-right">
+<span>Oceny zawodników po meczu z Atlético</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91514-oceny-zawodnikow-po-meczu-z-atletico#c-comments" target="_self">79</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91503-oblak-powinnismy-byli-zagrac-lepiej">
+<p>
+<time class="text-color_grey-size_micro">12:25</time>
+ </p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91503-oblak-powinnismy-byli-zagrac-lepiej">
+<p class="shift-padding_3-right">
+<span>Oblak: Powinniśmy byli zagrać lepiej</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91503-oblak-powinnismy-byli-zagrac-lepiej#c-comments" target="_self">8</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91512-skandal-wokol-systemu-var-i-firmy-mediapro">
+<p>
+<time class="text-color_grey-size_micro">11:32</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91512-skandal-wokol-systemu-var-i-firmy-mediapro">
+<p class="shift-padding_3-right">
+<span>Skandal wokół systemu VAR i firmy Mediapro</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91512-skandal-wokol-systemu-var-i-firmy-mediapro#c-comments" target="_self">39</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91509-courtois-czasami-ludzie-i-media-za-szybko-zabijaja-dana-osobe">
+<p>
+<time class="text-color_grey-size_micro">10:38</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91509-courtois-czasami-ludzie-i-media-za-szybko-zabijaja-dana-osobe">
+<p class="shift-padding_3-right">
+<span>Courtois: Czasami ludzie i media za szybko zabijają daną osobę</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91509-courtois-czasami-ludzie-i-media-za-szybko-zabijaja-dana-osobe#c-comments" target="_self">10</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91511-simeone-zywiolowo-domagal-sie-ukarania-sergio-ramosa">
+<p>
+<time class="text-color_grey-size_micro">09:43</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91511-simeone-zywiolowo-domagal-sie-ukarania-sergio-ramosa">
+<p class="shift-padding_3-right">
+<span>Simeone żywiołowo domagał się ukarania Sergio Ramosa</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91511-simeone-zywiolowo-domagal-sie-ukarania-sergio-ramosa#c-comments" target="_self">22</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91507-simeone-konczylismy-mecz-w-lepszej-kondycji-niz-real">
+<p>
+<time class="text-color_grey-size_micro">08:47</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91507-simeone-konczylismy-mecz-w-lepszej-kondycji-niz-real">
+<p class="shift-padding_3-right">
+<span>Simeone: Kończyliśmy mecz w lepszej kondycji niż Real</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91507-simeone-konczylismy-mecz-w-lepszej-kondycji-niz-real#c-comments" target="_self">28</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91510-napadnieto-na-dom-casemiro-z-jego-rodzina-w-srodku">
+<p>
+<time class="text-color_grey-size_micro">07:52</time>
+</p>
+</a>
+ </div>
+<div class="rmpl-flex-item">
+<a href="/news/91510-napadnieto-na-dom-casemiro-z-jego-rodzina-w-srodku">
+<p class="shift-padding_3-right">
+<span>Napadnięto na dom Casemiro z jego rodziną w środku</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91510-napadnieto-na-dom-casemiro-z-jego-rodzina-w-srodku#c-comments" target="_self">21</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91508-dzisiejsze-okladki">
+<p>
+<time class="text-color_grey-size_micro">00:57</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91508-dzisiejsze-okladki">
+<p class="shift-padding_3-right">
+<span>Dzisiejsze okładki</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91508-dzisiejsze-okladki#c-comments" target="_self">39</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91506-zidane-zabraklo-nam-stworzenia-wiecej-w-ataku">
+<p>
+<time class="text-color_grey-size_micro">00:00</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91506-zidane-zabraklo-nam-stworzenia-wiecej-w-ataku">
+<p class="shift-padding_3-right">
+<span>Zidane: Zabrakło nam stworzenia więcej w ataku</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91506-zidane-zabraklo-nam-stworzenia-wiecej-w-ataku#c-comments" target="_self">50</a>
+</span>
+</p>
+ </div>
+</div>
+</li>
+</ul>
+</div>
+<div class="c-notes-main-dayly shift-margin_2-top">
+<h6 class="background-color_appblue"><strong class="text-color_white-size_small">Sobota - 28.09.2019</strong></h6>
+<ul>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91504-7-kolejka-derby-madrytu-na-remis-barcelona-pokonuje-getafe">
+<p>
+<time class="text-color_grey-size_micro">23:17</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91504-7-kolejka-derby-madrytu-na-remis-barcelona-pokonuje-getafe">
+<p class="shift-padding_3-right">
+<span>7. kolejka: Derby Madrytu na remis, Barcelona pokonuje Getafe</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91504-7-kolejka-derby-madrytu-na-remis-barcelona-pokonuje-getafe#c-comments" target="_self">7</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91502-ramos-punkt-to-dla-nas-troche-za-malo">
+<p>
+<time class="text-color_grey-size_micro">22:59</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91502-ramos-punkt-to-dla-nas-troche-za-malo">
+<p class="shift-padding_3-right">
+<span>Ramos: Punkt to dla nas trochę za mało</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91502-ramos-punkt-to-dla-nas-troche-za-malo#c-comments" target="_self">31</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91501-na-wandzie-bez-werdyktu">
+<p>
+<time class="text-color_grey-size_micro">21:46</time>
+</p>
+ </a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91501-na-wandzie-bez-werdyktu">
+<p class="shift-padding_3-right">
+<span>Na Wandzie bez werdyktu</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91501-na-wandzie-bez-werdyktu#c-comments" target="_self">322</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91499-znamy-sklady">
+<p>
+<time class="text-color_grey-size_micro">19:53</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91499-znamy-sklady">
+<p class="shift-padding_3-right">
+<span>Znamy składy!</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91499-znamy-sklady#c-comments" target="_self">236</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91497-za-kazdym-razem-coraz-blizej">
+<p>
+<time class="text-color_grey-size_micro">19:06</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91497-za-kazdym-razem-coraz-blizej">
+<p class="shift-padding_3-right">
+<span>Za każdym razem coraz bliżej</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91497-za-kazdym-razem-coraz-blizej#c-comments" target="_self">6</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+ <div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91498-castilla-z-kompletem-punktow-gol-rodrygo">
+<p>
+<time class="text-color_grey-size_micro">19:00</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91498-castilla-z-kompletem-punktow-gol-rodrygo">
+<p class="shift-padding_3-right">
+<span>Castilla z kompletem punktów, gol Rodrygo</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91498-castilla-z-kompletem-punktow-gol-rodrygo#c-comments" target="_self">8</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91495-co-zmienilo-sie-w-atletico-od-derbow-w-new-jersey">
+<p>
+<time class="text-color_grey-size_micro">18:14</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91495-co-zmienilo-sie-w-atletico-od-derbow-w-new-jersey">
+<p class="shift-padding_3-right">
+<span>Co zmieniło się w Atlético od derbów w New Jersey?</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91495-co-zmienilo-sie-w-atletico-od-derbow-w-new-jersey#c-comments" target="_self">4</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91489-gonzalez-gonzalez-na-atletico">
+<p>
+<time class="text-color_grey-size_micro">17:26</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91489-gonzalez-gonzalez-na-atletico">
+<p class="shift-padding_3-right">
+<span>González González na Atlético</span>
+</p>
+ </a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91489-gonzalez-gonzalez-na-atletico#c-comments" target="_self">3</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91496-marca-vitolo-w-pierwszym-skladzie-atletico">
+<p>
+<time class="text-color_grey-size_micro">16:32</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91496-marca-vitolo-w-pierwszym-skladzie-atletico">
+<p class="shift-padding_3-right">
+<span>MARCA: Vitolo w pierwszym składzie Atlético</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91496-marca-vitolo-w-pierwszym-skladzie-atletico#c-comments" target="_self">12</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="rmpl-flex-container rmpl-flex-space">
+<div class="rmpl-flex-item-auto">
+<a href="/news/91492-po-pierwsza-bramke-i-zwyciestwo-we-wrzesniu">
+<p>
+<time class="text-color_grey-size_micro">15:40</time>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item">
+<a href="/news/91492-po-pierwsza-bramke-i-zwyciestwo-we-wrzesniu">
+<p class="shift-padding_3-right">
+<span>Po pierwszą bramkę i zwycięstwo we wrześniu</span>
+</p>
+</a>
+</div>
+<div class="rmpl-flex-item-auto">
+<p>
+<span class="gl-tag-pointed gl-tag-color_apporange">
+<a href="/news/91492-po-pierwsza-bramke-i-zwyciestwo-we-wrzesniu#c-comments" target="_self">2</a>
+</span>
+</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="column-width_4 shift-padding_2-left rwd-break_portrait_iphone6-cut_full rwd-break_tablet-cut_full">
+<div class="box-grid-full_width">
+<div class="rmpl-adsense-tablet-hide">
+<div class="rmpl-adsense" style="margin-bottom: 10px">
+<div id="div-gpt-ad-rmadryt.pl_HP_336x280_1" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_336x280_1" data-script-slot="/52555387/rmadryt.pl_HP_336x280_1" data-script-args="[[338, 280], [300, 250]]" data-mobile="0">
+</div>
+</div>
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_336x280_2" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_336x280_2" data-script-slot="/52555387/rmadryt.pl_HP_336x280_2" data-script-args="[[338, 280], [300, 250]]" data-mobile="0">
+</div>
+</div>
+</div> <div class="c-notes-main-injuries column-width_12 shift-margin_4-top">
+<div class="shift-margin_4-top">
+<h6 class="shift-margin_2-bottom">
+<span class="text-color_red background-color_lightenesgrey box-inline shift-margin_1-right">
+<strong class="text-size_medium">+</strong>
+</span>
+<strong>Kontuzjowani zawodnicy</strong>
+</h6>
+<div class="shift-padding_2-right">
+<div class="box-full_width-grid shift-padding_3 background-color_lightenesgrey">
+<figure class="box-full_width-grid">
+<a href="/pilkarz/asensio" target="_self" class="box-image column-width_3">
+<img data-cfsrc="/static/images/photo/a258de8d-7093-49ac-8e16-83b254a5e566.png" alt="Photo" class="element-image border-radius_circle shift-padding_2-horizontal" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/a258de8d-7093-49ac-8e16-83b254a5e566.png" alt="Photo" class="element-image border-radius_circle shift-padding_2-horizontal" /></noscript>
+</a>
+<figcaption class="column-width_9 shift-padding_2-left">
+<h5 class="text-size_small shift-margin_2-bottom">
+<strong>
+<a href="/pilkarz/asensio" target="_self">
+Marco Asensio
+</a>
+</strong>
+</h5>
+<p class="text-size_micro">Zerwane więzadło krzyżowe przednie w lewym kolanie</p>
+<p class="text-size_micro">Spodziewany powrót: wiosna 2020 roku</p>
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="shift-padding_2-right">
+<div class="box-full_width-grid shift-padding_3 background-color_lightenesgrey">
+<figure class="box-full_width-grid">
+<a href="/pilkarz/marcelo" target="_self" class="box-image column-width_3">
+<img data-cfsrc="/static/images/photo/38e9014a-d59b-4883-9fb3-e5c4c7f1b6db.png" alt="Photo" class="element-image border-radius_circle shift-padding_2-horizontal" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/38e9014a-d59b-4883-9fb3-e5c4c7f1b6db.png" alt="Photo" class="element-image border-radius_circle shift-padding_2-horizontal" /></noscript>
+</a>
+<figcaption class="column-width_9 shift-padding_2-left">
+<h5 class="text-size_small shift-margin_2-bottom">
+<strong>
+<a href="/pilkarz/marcelo" target="_self">
+Marcelo Vieira
+</a>
+</strong>
+</h5>
+<p class="text-size_micro">Pourazowy ból pleców w odcinku szyjnym</p>
+<p class="text-size_micro">Spodziewany powrót: koniec września 2019 roku</p>
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="shift-padding_2-right">
+<div class="box-full_width-grid shift-padding_3 background-color_lightenesgrey">
+<figure class="box-full_width-grid">
+<a href="/pilkarz/mendy" target="_self" class="box-image column-width_3">
+<img data-cfsrc="/static/images/photo/29a2cf89-10ef-415b-8500-c4692ff91bf3.png" alt="Photo" class="element-image border-radius_circle shift-padding_2-horizontal" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/29a2cf89-10ef-415b-8500-c4692ff91bf3.png" alt="Photo" class="element-image border-radius_circle shift-padding_2-horizontal" /></noscript>
+</a>
+<figcaption class="column-width_9 shift-padding_2-left">
+<h5 class="text-size_small shift-margin_2-bottom">
+<strong>
+<a href="/pilkarz/mendy" target="_self">
+Ferland Mendy
+</a>
+</strong>
+</h5>
+<p class="text-size_micro">Kontuzja mięśniowa przywodziciela lewej nogi</p>
+<p class="text-size_micro">Spodziewany powrót: wstępnie 19 października, mecz z Mallorcą</p>
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="text-align_center shift-margin_2-top">
+<a href="/kontuzjowani" target="_self" class="text-size_tiny" title="">Wszystkie kontuzje (3)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="rmpl-adsense-mobile shift-margin_4-top">
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_320x100_mobile" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_320x100_mobile" data-script-slot="/52555387/rmadryt.pl_HP_320x100_mobile" data-script-args="[[320, 100], [320, 50]]" data-mobile="1">
+</div>
+</div>
+</div> <section class="match-section">
+<div class="match is-loading">
+<div class="match-heading match-padding">
+<div class="match-calendarHolder match-calendarHolder__visible shift-margin_2-top">
+<div class="match-calendarTime left"></div>
+<div>
+<div class="match-calendarArrow match-calendarArrow__left">
+<i class="icon-size_5-arrow_left-color_lightgrey"></i>
+</div>
+<div class="match-calendarArrow match-calendarArrow__right">
+<i class="icon-size_5-arrow_right-color_lightgrey"></i>
+</div>
+<ul class="match-calendarContainer">
+<li class="match-calendarElement"></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="match-wrapper">
+<div class="c-calendar-main-dayly_match_main match-padding"></div>
+<div class="c-calendar-main-banner match-padding"></div>
+<div class="c-calendar-other-days-container js-SlidingBox-Holder ui-SlidingBox-Holder fn-hidden"></div>
+</div>
+</div>
+<div class="match-table">
+<div class="shift-padding_3-horizontal gl-unshift_left">
+<div class="js-TabsBox-Holder ui-TabsBox-Holder c-table-points shift-margin_5-top">
+<nav class="rmpl-flex-container js-TabsBox-Navigation ui-TabsBox-Navigation c-table-points-navigation shift-margin_1-bottom">
+<span class="rmpl-flex-item-auto fn-active shift-padding_2 text-color_appdarkblue-size_small">Tabela</span>
+<span class="rmpl-flex-item-auto shift-padding_2 text-color_appdarkblue-size_small">Pichichi</span>
+<span class="rmpl-flex-item-auto shift-padding_2 text-color_appdarkblue-size_small">Zamora</span>
+<span class="rmpl-flex-item shift-padding_2 text-color_appdarkblue-size_small">Asistencias</span>
+</nav>
+<div class="js-TabsBox-Box">
+<article class="fn-visible box-full_width">
+<ul class="c-table-points-list_pointed">
+<li class="rmpl-flex-container head background-color_appblue text-color_white shift-padding_2">
+<div class="rmpl-flex-item-auto table-points-column"></div>
+<div class="rmpl-flex-item">
+<strong class="text-color_white-size_small">Drużyna</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">M</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">PKT</strong>
+</div>
+</li>
+<li class="rmpl-flex-container current">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">1</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" /></noscript>
+Real Madryt
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">15</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">2</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/c7b8f28e-7411-4528-812a-63854ce5ab2c.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/c7b8f28e-7411-4528-812a-63854ce5ab2c.png" class="shift-margin_2-right" /></noscript>
+Granada CF
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">14</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">3</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/aa078cc1-2155-4a76-b3d7-fbc27e7951af.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/aa078cc1-2155-4a76-b3d7-fbc27e7951af.png" class="shift-margin_2-right" /></noscript>
+Atlético Madryt
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">14</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">4</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/ddc64b1a-3c83-4412-a832-181a79e98ca3.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/ddc64b1a-3c83-4412-a832-181a79e98ca3.png" class="shift-margin_2-right" /></noscript>
+FC Barcelona
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">13</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">5</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/9abe588b-5489-462f-990e-3af4ca28a3ae.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/9abe588b-5489-462f-990e-3af4ca28a3ae.png" class="shift-margin_2-right" /></noscript>
+Real Sociedad
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">13</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">6</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/bec0581a-2e57-41b9-8e11-75242794c5b7.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/bec0581a-2e57-41b9-8e11-75242794c5b7.png" class="shift-margin_2-right" /></noscript>
+Sevilla FC
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">13</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">7</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" /></noscript>
+Athletic Club
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">12</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">8</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" /></noscript>
+Villarreal CF
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">11</div>
+</li>
+</ul>
+<div class="box-full_width text-align_center shift-margin_2-vertical">
+<a href="/rozgrywki/la-liga-2019-2020" target="_self" class="text-size_tiny" title="">Pokaż całą tabelę</a>
+</div>
+</article>
+<article class="box-full_width">
+<ul class="c-table-points-list_pointed">
+<li class="rmpl-flex-container head background-color_appblue text-color_white shift-padding_2">
+<div class="rmpl-flex-item-auto table-points-column"></div>
+<div class="rmpl-flex-item">
+<strong class="text-color_white-size_small">Piłkarz</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">M</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">G</strong>
+</div>
+</li>
+<li class="rmpl-flex-container current">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">1</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" /></noscript>
+Gerard
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">2</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" /></noscript>
+Benzema
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">5</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">3</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/cdb83421-b7c5-4fe3-a0b5-5f10dcad517e.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/cdb83421-b7c5-4fe3-a0b5-5f10dcad517e.png" class="shift-margin_2-right" /></noscript>
+Loren Morón
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">5</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">4</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" /></noscript>
+Raúl García
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">4</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">5</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/9abe588b-5489-462f-990e-3af4ca28a3ae.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/9abe588b-5489-462f-990e-3af4ca28a3ae.png" class="shift-margin_2-right" /></noscript>
+Oyarzabal
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">4</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">6</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" /></noscript>
+Cazorla
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">4</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">7</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/ddc64b1a-3c83-4412-a832-181a79e98ca3.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/ddc64b1a-3c83-4412-a832-181a79e98ca3.png" class="shift-margin_2-right" /></noscript>
+Luis Suárez
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">5</div>
+<div class="rmpl-flex-item-auto table-points-column">3</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">8</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/826139f4-586c-4042-8f85-545a7e9bbdc0.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/826139f4-586c-4042-8f85-545a7e9bbdc0.png" class="shift-margin_2-right" /></noscript>
+Parejo
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">3</div>
+</li>
+</ul>
+<div class="box-full_width text-align_center shift-margin_2-vertical">
+<a href="/rozgrywki/la-liga-2019-2020" target="_self" class="text-size_tiny" title="">Pokaż statystyki</a>
+</div>
+</article>
+<article class="box-full_width">
+<ul class="c-table-points-list_pointed">
+<li class="rmpl-flex-container head background-color_appblue text-color_white shift-padding_2">
+<div class="rmpl-flex-item-auto table-points-column"></div>
+<div class="rmpl-flex-item">
+<strong class="text-color_white-size_small">Bramkarz</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">M</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">SG</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">ŚR</strong>
+</div>
+</li>
+<li class="rmpl-flex-container current">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">1</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" /></noscript>
+Unai Simón
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">2</div>
+<div class="rmpl-flex-item-auto table-points-column">
+0.33
+</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">2</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/aa078cc1-2155-4a76-b3d7-fbc27e7951af.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/aa078cc1-2155-4a76-b3d7-fbc27e7951af.png" class="shift-margin_2-right" /></noscript>
+Oblak
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">4</div>
+<div class="rmpl-flex-item-auto table-points-column">
+0.57
+</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">3</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" /></noscript>
+Asenjo
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">4</div>
+<div class="rmpl-flex-item-auto table-points-column">3</div>
+<div class="rmpl-flex-item-auto table-points-column">
+0.75
+</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">4</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/07f74d72-a38b-4cbd-99b2-86c99f7cb401.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/07f74d72-a38b-4cbd-99b2-86c99f7cb401.png" class="shift-margin_2-right" /></noscript>
+Rubén
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">
+0.86
+</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">5</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/c7b8f28e-7411-4528-812a-63854ce5ab2c.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/c7b8f28e-7411-4528-812a-63854ce5ab2c.png" class="shift-margin_2-right" /></noscript>
+Rui Silva
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">
+0.86
+</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">6</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/bec0581a-2e57-41b9-8e11-75242794c5b7.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/bec0581a-2e57-41b9-8e11-75242794c5b7.png" class="shift-margin_2-right" /></noscript>
+Vaclík
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">
+1
+</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">7</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" /></noscript>
+Courtois
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">
+1
+</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">8</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/98597072-e8d2-47c0-a07d-2c305da4570f.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/98597072-e8d2-47c0-a07d-2c305da4570f.png" class="shift-margin_2-right" /></noscript>
+Masip
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">8</div>
+<div class="rmpl-flex-item-auto table-points-column">
+1.14
+</div>
+</li>
+</ul>
+<div class="box-full_width text-align_center shift-margin_2-vertical">
+<a href="/rozgrywki/la-liga-2019-2020" target="_self" class="text-size_tiny" title="">Pokaż statystyki</a>
+</div>
+</article>
+<article class="box-full_width">
+<ul class="c-table-points-list_pointed">
+<li class="rmpl-flex-container head background-color_appblue text-color_white shift-padding_2">
+<div class="rmpl-flex-item-auto table-points-column"></div>
+<div class="rmpl-flex-item">
+<strong class="text-color_white-size_small">Piłkarz</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">M</strong>
+</div>
+<div class="rmpl-flex-item-auto table-points-column"><strong class="text-color_white-size_small">A</strong>
+</div>
+</li>
+<li class="rmpl-flex-container current">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">1</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/43354bcf-21bf-4bcd-8cb7-8865a2f9e484.png" class="shift-margin_2-right" /></noscript>
+Carvajal
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">5</div>
+<div class="rmpl-flex-item-auto table-points-column">3</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">2</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/c8ea909a-5bc0-43b4-b604-4ae06b652f30.png" class="shift-margin_2-right" /></noscript>
+Capa
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">3</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">3</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/78984525-cbbf-489b-b762-9e6b3d16724e.png" class="shift-margin_2-right" /></noscript>
+Cazorla
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">3</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">4</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/c7b8f28e-7411-4528-812a-63854ce5ab2c.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/c7b8f28e-7411-4528-812a-63854ce5ab2c.png" class="shift-margin_2-right" /></noscript>
+Montoro
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">7</div>
+<div class="rmpl-flex-item-auto table-points-column">3</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">5</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/cdb83421-b7c5-4fe3-a0b5-5f10dcad517e.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/cdb83421-b7c5-4fe3-a0b5-5f10dcad517e.png" class="shift-margin_2-right" /></noscript>
+Emerson
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">5</div>
+<div class="rmpl-flex-item-auto table-points-column">2</div>
+ </li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">6</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/ddc64b1a-3c83-4412-a832-181a79e98ca3.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/ddc64b1a-3c83-4412-a832-181a79e98ca3.png" class="shift-margin_2-right" /></noscript>
+Busquets
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">5</div>
+<div class="rmpl-flex-item-auto table-points-column">2</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">7</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/bec0581a-2e57-41b9-8e11-75242794c5b7.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/bec0581a-2e57-41b9-8e11-75242794c5b7.png" class="shift-margin_2-right" /></noscript>
+Banega
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">2</div>
+</li>
+<li class="rmpl-flex-container">
+<div class="rmpl-flex-item-auto table-points-column table-points-column-no">8</div>
+<div class="rmpl-flex-item">
+<div class="rmpl-flex-container rmpl-flex-aligned">
+<img data-cfsrc="/static/images/photo/9abe588b-5489-462f-990e-3af4ca28a3ae.png" class="shift-margin_2-right" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/photo/9abe588b-5489-462f-990e-3af4ca28a3ae.png" class="shift-margin_2-right" /></noscript>
+Portu
+</div>
+</div>
+<div class="rmpl-flex-item-auto table-points-column">6</div>
+<div class="rmpl-flex-item-auto table-points-column">2</div>
+</li>
+</ul>
+<div class="box-full_width text-align_center shift-margin_2-vertical">
+<a href="/rozgrywki/la-liga-2019-2020" target="_self" class="text-size_tiny" title="">Pokaż statystyki</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script>
+    window.__matchSharedAsynchrousLoader__ = true;
+</script>
+<section class="c-madridismo background-color_appblue">
+<div class="c-madridismo-main">
+<div class="box-full_width-grid shift-padding_3-vertical">
+<div class="column-width_12">
+<div class="box-full_width-grid-vertical_align_middle">
+<div class="column-width_6 rwd-break_portrait_tablet-cut_half shift-padding_3-horizontal">
+<h3 class="rmpl-heading rmpl-heading-md rmpl-heading-light">
+Madridismo
+</h3>
+</div>
+<div class="c-madridismo-main-online rwd-break_portrait_tablet-cut_half column-width_6 box-align_vertical_middle text-align_right shift-padding_4-right">
+
+<a href="https://www.facebook.com/RealMadridPL" target="_BLANK" class="rmpl-btn rmpl-btn-sm">
+<img data-cfsrc="/img/social/facebook.png" data-cfstyle="height: 28px" style="display:none;visibility:hidden;" /><noscript><img src="/img/social/facebook.png" style="height: 28px" /></noscript>
+</a>
+<a href="https://twitter.com/realmadryt_pl" target="_BLANK" class="rmpl-btn rmpl-btn-sm">
+<img data-cfsrc="/img/social/twitter.png" data-cfstyle="height: 28px" style="display:none;visibility:hidden;" /><noscript><img src="/img/social/twitter.png" style="height: 28px" /></noscript>
+</a>
+<a href="https://www.linkedin.com/company/realmadryt-pl" target="_BLANK" class="rmpl-btn rmpl-btn-sm">
+<img data-cfsrc="/img/social/linkedin.png" data-cfstyle="height: 28px" style="display:none;visibility:hidden;" /><noscript><img src="/img/social/linkedin.png" style="height: 28px" /></noscript>
+</a>
+<a href="https://www.instagram.com/realmadryt.pl" target="_BLANK" class="rmpl-btn rmpl-btn-sm">
+<img data-cfsrc="/img/social/instagram.png" data-cfstyle="height: 28px" style="display:none;visibility:hidden;" /><noscript><img src="/img/social/instagram.png" style="height: 28px" /></noscript>
+</a>
+<a href="https://pl.wikipedia.org/wiki/RealMadryt.pl" target="_BLANK" class="rmpl-btn rmpl-btn-sm">
+<img data-cfsrc="/img/social/wikipedia.png" data-cfstyle="height: 28px" style="display:none;visibility:hidden;" /><noscript><img src="/img/social/wikipedia.png" style="height: 28px" /></noscript>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="box-full_width-grid-flex-items_streach madridismo-content shift-padding_3-horizontal">
+<div class="column-width_8 background-color_white madridismo-content__comments shift-margin_3-bottom">
+<div class="shift-margin_4-bottom">
+<div class="c-comments-main-box shift-margin_2-bottom">
+<h5 class="cf shift-padding_4 border_bottom-color_lightergrey">
+<span class="text-size_small">
+Najciekawsze komentarze z 6032 napisanych w ciągu ostatniego tygodnia
+</span>
+</h5>
+<script>
+        window.__madridismoComments__ = {"comments":[{"id":61494,"User":{"type":"regular","username":"marfel","displayName":"marfel","avatar":"\/img\/avatar-placeholder.png"},"textContent":"Sukces jest po\u0142owiczny- z jednej strony punkt na terenie Atletico nie jest z\u0142y, z drugiej- zabrak\u0142o odwa\u017cniejszej gry do przodu(og\u00f3lnie to wczoraj najs\u0142abiej wypad\u0142a ca\u0142a tr\u00f3jka ofensywnych graczy z Hazardem na czele).<br \/>Dru\u017cyn\u0119 na pewno mo\u017cna pochwali\u0107 teraz za gr\u0119 defensywn\u0105 bo wracaj\u0105 si\u0119 wszyscy, \u0142\u0105cznie z Benzem\u0105. Pod tym wzgl\u0119dem jest poprawa, tworzymy wi\u0119kszy monolit, nie ma takich luk w pomocy, pi\u0142ka ju\u017c tak \u0142atwo nie przechodzi pod nasze pole karne.<br \/>Po cz\u0119\u015bci te\u017c obi\u0142o si\u0119 to na ofensywie bo ma\u0142\u0105 liczb\u0105 graczy atakujemy. Ja jednak widz\u0119 problem gdzie\u015b indziej- Benzema, Bale i Hazard nie umiej\u0105 gra\u0107 razem, nie maj\u0105 mi\u0119dzy sob\u0105 \u017cadnego &quot;wyczucia&quot;. Jest ich trzech a i tak ka\u017cdy gra po swojemu, z regu\u0142y to s\u0105 improwizowane akcje. A taki zesp\u00f3\u0142 jak Atletico ci\u0119\u017cko zaskoczy\u0107 gdy sami nasi zawodnicy si\u0119 nie rozumiej\u0105.<br \/>No i dlaczego u nas nie ma poda\u0144 na dobieg tylko wszystko jest do nogi gdzie zawodnik na skrzydle \u0142askawie czeka a\u017c pi\u0142ka si\u0119 do niego doturla? Przecie\u017c to powoduje \u017ce nie ma \u017cadnego zaskoczenia. Tutaj musi by\u0107 poprawa bo wygl\u0105da to s\u0142abo.<br \/>Dla mnie g\u0142\u00f3wnym problemem jest to \u017ce nasze ofensywne akcje s\u0105 szarpane, nie ma w nich zgrania mi\u0119dzy zawodnikami co by u\u0142atwi\u0142o tworzenie sytuacji.<br \/>Wynik dla mnie jest sprawiedliwy, wczoraj zrobili\u015bmy za ma\u0142o by wygra\u0107. Ciesz\u0119 si\u0119 z tego \u017ce nie przegrali\u015bmy na trudnym terenie. Zizou teraz musi co\u015b wymy\u015bli\u0107 by\u015bmy ofensywnie nabrali rozp\u0119du i sprawiedliwie rozdziela\u0107 szanse na gr\u0119( czyli \u017ceby James kt\u00f3ry nie zawodzi\u0142 z miejsca nie zosta\u0142 przyspawany do \u0142awki\/trybun gdy Modri\u0107 wr\u00f3ci\u0142).<br \/>","likesCount":1,"isRecommended":true,"createdAt":"2019-09-29 17:45:32","articleUrl":"https:\/\/www.realmadryt.pl\/news\/91513-zidane-zawodnicy-czuli-ze-bylo-tu-miejsce-na-zdobycie-3-punktow","articleTitle":"Zidane: Zawodnicy czuli, \u017ce by\u0142o tu miejsce na zdobycie 3 punkt\u00f3w","commentUrl":"https:\/\/www.realmadryt.pl\/news\/91513-zidane-zawodnicy-czuli-ze-bylo-tu-miejsce-na-zdobycie-3-punktow#comment61494","isLikedByUser":false},{"id":61396,"User":{"type":"regular","username":"sasquacz","displayName":"sasquacz","avatar":"\/static\/images\/avatar\/e6ddce4d-0d75-404b-82c0-5b27513279c6.png"},"textContent":"Uwa\u017cam \u017ce ZZ podejmuje zbyt zachowawcze decyzj\u0119. Trzyma\u0142 za d\u0142ugo Hazarda. Real w tym meczu przej\u0105\u0142 mn\u00f3stwo pi\u0142ek, wobec dyspozycji Belga a\u017c prosi\u0142o si\u0119 o szybko\u015b\u0107 Viniciusa. Da\u0142 tylko kilka minut dla Jovi\u0107a. Boli mnie ten wynik bo Atletico by\u0142o do pykni\u0119cia, wg mnie nawet na remis nie zas\u0142u\u017cy\u0142o. Bale mo\u017ce waln\u0105\u0107 w Warszawie z woleja w samo okno a tutaj pi\u0142ka meczowa spiertolona koncertowo. Szkoda te\u017c Casemiro bo on nosi ten bia\u0142y fortepian ale Perez nie kupi\u0142 \u017cadnego pianisty.","likesCount":7,"isRecommended":true,"createdAt":"2019-09-29 14:03:08","articleUrl":"https:\/\/www.realmadryt.pl\/news\/91514-oceny-zawodnikow-po-meczu-z-atletico","articleTitle":"Oceny zawodnik\u00f3w po meczu z Atl\u00e9tico","commentUrl":"https:\/\/www.realmadryt.pl\/news\/91514-oceny-zawodnikow-po-meczu-z-atletico#comment61396","isLikedByUser":false},{"id":61362,"User":{"type":"regular","username":"Anelka39","displayName":"Anelka39","avatar":"\/static\/images\/avatar\/47b6f687-d1aa-4f0b-a07e-106e96e3f0bc.png"},"textContent":"Mieli\u015bmy dosta\u0107 pi\u0105tk\u0119 od Atleti. Tymczasem defensywa zagra\u0142a \u015bwietnie. Poza Hazardem ka\u017cdy na plus. Cieszy mnie r\u00f3wnie\u017c \u017ce Zizou zamkn\u0105\u0142 mordy tym Valverde. <br \/>Taki by\u0142 p\u0142acz w komentarzach po podaniu sk\u0142ad\u00f3w. Pozostaje niedosyt, ale jedziemy dalej. Vamos!<br \/>","likesCount":5,"isRecommended":true,"createdAt":"2019-09-29 13:26:11","articleUrl":"https:\/\/www.realmadryt.pl\/news\/91514-oceny-zawodnikow-po-meczu-z-atletico","articleTitle":"Oceny zawodnik\u00f3w po meczu z Atl\u00e9tico","commentUrl":"https:\/\/www.realmadryt.pl\/news\/91514-oceny-zawodnikow-po-meczu-z-atletico#comment61362","isLikedByUser":false},{"id":61180,"User":{"type":"regular","username":"yacol","displayName":"yacol","avatar":"\/img\/avatar-placeholder.png"},"textContent":"Bardzo dobre spotkanie Realu. <br \/><br \/>Szkoda \u017ce nie 3pkt bo zas\u0142u\u017cyli\u015bmy, a samo Atleti by\u0142o do ogrania. Niestety maj\u0105 Oblaka, zabrak\u0142o te\u017c troch\u0119 szcz\u0119\u015bcia.<br \/><br \/>Najwa\u017cniejsze \u017ce na jednym z najtrudniejszych teren\u00f3w - wywozimy cenny punkt i nie przegrywamy. <br \/><br \/>Brawo<br \/>","likesCount":5,"isRecommended":true,"createdAt":"2019-09-29 08:29:11","articleUrl":"https:\/\/www.realmadryt.pl\/news\/91508-dzisiejsze-okladki","articleTitle":"Dzisiejsze ok\u0142adki","commentUrl":"https:\/\/www.realmadryt.pl\/news\/91508-dzisiejsze-okladki#comment61180","isLikedByUser":false},{"id":61132,"User":{"type":"regular","username":"ciekawski_83","displayName":"ciekawski_83","avatar":"\/img\/avatar-placeholder.png"},"textContent":"Dobry mecz Realu. Daje nadzieje, \u017ce jednak co\u015b tu si\u0119 buduje. Zawsze zaczyna sie od defensywy, od 0:0 i dopiero potem idzie si\u0119 dalej. Czekamy na Modricia(wiek robi swoje, ale te 45 minut da jeszce rade), na Hazarda, na Viniciusa. To ju\u017c nie b\u0119dize Real z czas\u00f3w Cristiano, ale co\u015b sie ruszy\u0142o. Jest intensywno\u015b\u0107, defensywa i je\u015bli dorzucimy to co\u015b w ofensywie, to  nie b\u0119dziemy si\u0119 wstydzi\u0107.","likesCount":21,"isRecommended":true,"createdAt":"2019-09-29 00:06:55","articleUrl":"https:\/\/www.realmadryt.pl\/news\/91506-zidane-zabraklo-nam-stworzenia-wiecej-w-ataku","articleTitle":"Zidane: Zabrak\u0142o nam stworzenia wi\u0119cej w ataku","commentUrl":"https:\/\/www.realmadryt.pl\/news\/91506-zidane-zabraklo-nam-stworzenia-wiecej-w-ataku#comment61132","isLikedByUser":false}]}
+    </script>
+<div class="box-full_width text-align_center shift-padding_2-vertical c-comments__home__config c-comments__home-loadMore" data-comments-api-main-page="/api/v1/home/comments.json">
+<a href="#" target="_blank" class="link-naked">pokaż więcej</a>
+</div>
+</div> </div>
+</div>
+<div class="column-width_4 shift-padding_3-left madridismo-content__sidebar">
+<div class="box-full_width-grid">
+<div class="mcs-container">
+<div class="column-width_12 rwd-break_portrait_tablet-cut_full mcs-borders">
+<div class="c-poll ">
+<div class="c-poll__question box-full_width-grid">
+<div class="c-query_question column-width_12 rwd-break_portrait_tablet-cut_full">
+<h5 class="shift-margin_5-vertical">
+<strong class="text-color_white-size_small">Czy twoim zdaniem Zidane jest odpowiednią osobą, by wyprowadzić Real z kryzysu?</strong>
+</h5>
+<form name="survey_form" method="post" action="/survey/vote" novalidate="novalidate" id="surveyForm" data-form-url="/survey/vote" class="js-Radio-Fieldset c-poll__form">
+<fieldset class="custom-radio js-Radio-Holder box-full_width shift-margin_3-bottom c-poll__fieldset" data-option-id="8">
+<input type="radio" id="survey_form_surveyOption_8" name="survey_form[surveyOption]" required="required" value="8" />
+
+<label class="js-Radio-Call text-color_white shift-padding_5-left required" for="survey_form_surveyOption_8">Tak</label>
+</fieldset>
+<fieldset class="custom-radio js-Radio-Holder box-full_width shift-margin_3-bottom c-poll__fieldset" data-option-id="9">
+<input type="radio" id="survey_form_surveyOption_9" name="survey_form[surveyOption]" required="required" value="9" />
+
+<label class="js-Radio-Call text-color_white shift-padding_5-left required" for="survey_form_surveyOption_9">Nie</label>
+</fieldset>
+<fieldset class="custom-radio js-Radio-Holder box-full_width shift-margin_3-bottom c-poll__fieldset" data-option-id="10">
+<input type="radio" id="survey_form_surveyOption_10" name="survey_form[surveyOption]" required="required" value="10" />
+
+<label class="js-Radio-Call text-color_white shift-padding_5-left required" for="survey_form_surveyOption_10">Nie wiem</label>
+</fieldset>
+<div class="ui-action box-grid-full_width-vertical_align_middle">
+<div class="column-width_6">
+<button type="submit" id="survey_form_submit" name="survey_form[submit]" class="c-poll__submit button-size_4-apporange-rounded_1">Głosuj</button>
+</div>
+<div class="column-width_6 text-align_right">
+<a href="#" class="text-color_applightpurple c-poll__showResult" target="_blank" title="">Zobacz wyniki głosowania</a>
+</div>
+</div>
+<span class="c-poll__errors text-color_red box-inline-full_width"></span>
+</form>
+</div>
+</div>
+<div class="c-poll__result box-full_width-grid">
+<div class="c-query_results column-width_12 rwd-break_portrait_tablet-cut_full shift-margin_2-bottom">
+<h5 class="shift-margin_5-vertical">
+<strong class="text-color_white-size_small">Czy twoim zdaniem Zidane jest odpowiednią osobą, by wyprowadzić Real z kryzysu?</strong>
+</h5>
+<div class="shift-padding_3-left">
+<div class="box-full_width-grid-vertical_align_middle shift-margin_2-bottom" data-option-id="8">
+<div class="column-width_10 shift-padding_2-right">
+<div class="box-full_width-inline">Tak</div>
+<figure class="box-full_width-inline-relative shift-margin_1-top">
+<figcaption style="width: 56%"></figcaption>
+</figure>
+</div>
+<div class="column-width_2 text-align_right">
+<h4>56%</h4>
+</div>
+</div>
+<div class="box-full_width-grid-vertical_align_middle shift-margin_2-bottom" data-option-id="9">
+<div class="column-width_10 shift-padding_2-right">
+<div class="box-full_width-inline">Nie</div>
+<figure class="box-full_width-inline-relative shift-margin_1-top">
+<figcaption style="width: 29%"></figcaption>
+</figure>
+</div>
+<div class="column-width_2 text-align_right">
+<h4>29%</h4>
+</div>
+</div>
+<div class="box-full_width-grid-vertical_align_middle shift-margin_2-bottom" data-option-id="10">
+<div class="column-width_10 shift-padding_2-right">
+<div class="box-full_width-inline">Nie wiem</div>
+<figure class="box-full_width-inline-relative shift-margin_1-top">
+<figcaption style="width: 15%"></figcaption>
+</figure>
+</div>
+<div class="column-width_2 text-align_right">
+<h4>15%</h4>
+</div>
+</div>
+</div>
+<div class="text-align_right shift-margin_3-vertical shift_padding_3-left">
+<button class="button-size_4-apporange-rounded_1 c-poll__back">Powrót</button>
+<h6 class="text-color_applightpurple shift-padding_2-top">Liczba głosujących: <span class="c-poll__votingCount">1404</span></h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="c-madridismo-main-advertise mcs-advertise column-width_12 rwd-break_portrait_tablet-cut_full">
+<div class="rmpl-adsense-ipad-hide">
+<div class="rmpl-adsense shift-margin_3-bottom">
+<div id="div-gpt-ad-rmadryt.pl_HP_336x280_3" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_336x280_3" data-script-slot="/52555387/rmadryt.pl_HP_336x280_3" data-script-args="[[338, 280], [300, 250]]" data-mobile="0">
+</div>
+</div>
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_336x280_4" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_336x280_4" data-script-slot="/52555387/rmadryt.pl_HP_336x280_4" data-script-args="[[338, 280], [300, 250]]" data-mobile="0">
+</div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="rmpl-adsense-desktop shift-margin_3">
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-rmadryt.pl_HP_bottom_970x250" class="adsense-injection-handler" data-script-block="div-gpt-ad-rmadryt.pl_HP_bottom_970x250" data-script-slot="/52555387/rmadryt.pl_HP_bottom_970x250" data-script-args="[[970, 250], [970, 90], [750, 200]]" data-mobile="0">
+</div>
+</div>
+</div>
+<div class="rmpl-adsense-mobile shift-margin_2-vertical">
+<div class="rmpl-adsense">
+<div id="div-gpt-ad-1535660586896-4" class="adsense-injection-handler" data-script-block="div-gpt-ad-1535660586896-4" data-script-slot="/52555387/realmadryt.pl_HP_300x250_mobile_3" data-script-args="[[300, 100], [300, 50], [320, 50], [320, 100], [300, 250]]" data-mobile="1">
+</div>
+</div>
+</div>
+<section class="covers">
+<div class="covers-heading">
+<div class="rmpl-flex-container rmpl-flex-aligned covers-trigger fn-hidden">
+<span class="rmpl-flex-item-auto covers-trigger-span">
+<i class="icon-calendar2-size_2-color_lightgrey cursor-pointer"></i>
+</span>
+<span class="rmpl-flex-item-auto covers-trigger-text text-size_tiny-color_appblue cursor-pointer" data-caption-collapsed="Zmień datę" data-caption-expanded="Zwiń kalendarz">Zmień datę</span>
+</div>
+<h5>Okładki dzienników <span></span> </h5>
+<div class="covers-calendarHolder">
+<div class="covers-calendarTime left"></div>
+<div>
+<div class="covers-calendarArrow covers-calendarArrow__left">
+<i class="icon-size_5-arrow_left-color_lightgrey"></i>
+</div>
+<div class="covers-calendarArrow covers-calendarArrow__right">
+<i class="icon-size_5-arrow_right-color_lightgrey"></i>
+</div>
+<ul class="covers-calendarContainer">
+<li class="covers-calendarElement">DD</li>
+</ul>
+</div>
+</div>
+<script>
+    window.journal = {"covers":[{"day":"2019-08-25","count":"4"},{"day":"2019-08-26","count":"4"},{"day":"2019-08-27","count":"4"},{"day":"2019-08-28","count":"4"},{"day":"2019-08-29","count":"4"},{"day":"2019-08-30","count":"4"},{"day":"2019-08-31","count":"4"},{"day":"2019-09-01","count":"4"},{"day":"2019-09-02","count":"4"},{"day":"2019-09-03","count":"4"},{"day":"2019-09-04","count":"4"},{"day":"2019-09-05","count":"4"},{"day":"2019-09-06","count":"4"},{"day":"2019-09-07","count":"4"},{"day":"2019-09-08","count":"4"},{"day":"2019-09-09","count":"4"},{"day":"2019-09-10","count":"4"},{"day":"2019-09-11","count":"4"},{"day":"2019-09-12","count":"4"},{"day":"2019-09-13","count":"4"},{"day":"2019-09-14","count":"4"},{"day":"2019-09-15","count":"4"},{"day":"2019-09-16","count":"4"},{"day":"2019-09-17","count":"4"},{"day":"2019-09-18","count":"4"},{"day":"2019-09-19","count":"4"},{"day":"2019-09-20","count":"4"},{"day":"2019-09-21","count":"4"},{"day":"2019-09-22","count":"4"},{"day":"2019-09-23","count":"4"},{"day":"2019-09-24","count":"4"},{"day":"2019-09-25","count":"4"},{"day":"2019-09-26","count":"4"},{"day":"2019-09-27","count":"4"},{"day":"2019-09-28","count":"4"},{"day":"2019-09-29","count":"4"},{"day":"2019-09-30","count":"4"}],"range":{"start":"2019-08-21","end":"2019-09-30"}};
+</script>
+</div>
+<div class="covers-container">
+<div class="covers-sliderArrow covers-sliderArrow__left fn-hidden">
+<i class="icon-size_5-arrow_left-color_lightgrey"></i>
+</div>
+<div class="covers-sliderArrow covers-sliderArrow__right fn-hidden">
+<i class="icon-size_5-arrow_right-color_lightgrey"></i>
+</div>
+<div class="covers-holder">
+<ul class="covers-slider">
+<li class="covers-sliderItem">
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemHolder" style="background-image: url('/static/images/photo/fc8f8cc1-7719-4c83-9a5c-5ac2de45dc22.jpg');">
+</a>
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemTitle">
+MARCA
+</a>
+</li>
+<li class="covers-sliderItem">
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemHolder" style="background-image: url('/static/images/photo/a795e9c2-8c94-45b8-be28-1187e86d2062.jpg');">
+</a>
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemTitle">
+AS
+</a>
+</li>
+<li class="covers-sliderItem">
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemHolder" style="background-image: url('/static/images/photo/4bc9936d-79f7-4410-9e1d-664cda85139b.jpg');">
+</a>
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemTitle">
+Mundo Deportivo
+</a>
+</li>
+<li class="covers-sliderItem">
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemHolder" style="background-image: url('/static/images/photo/98a4a5dd-8f5e-4070-948f-d763d57f689a.jpg');">
+</a>
+<a href="/news/91520-dzisiejsze-okladki" class="covers-sliderItemTitle">
+Sport
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<script src="/compiled/homepage-b6a99a477aadc929fb7c04600dcc74fd0da05266.274aa0b379ae34395f8b.js"></script>
+</div>
+</main>
+<footer class="c-footer">
+<div class="c-footer-holder">
+<div class="c-footer-testimonials">
+<p> RealMadryt.pl is not linked with Real Madrid and the Club’s players. The website is an initiative of Polish fans of Real Madrid. </p>
+<p> RealMadryt.pl nie jest powiązany z Realem Madryt ani jego piłkarzami. Serwis jest inicjatywą polskich fanów Realu Madryt. </p>
+<p> Korzystając z serwisu akceptujesz <a href="/regulamin" target="_self" title="Regulamin">regulamin</a> oraz <a href="/polityka-prywatnosci" target="_self" title="Polityka prywatności">politykę prywatności</a>. </p>
+</div>
+<div class="c-footer-anchors">
+<div class="column">
+<div class="rows">
+<a href="/faq" target="_self" title="FAQ" class="splitted">FAQ</a>
+<a href="/redakcja" target="_self" title="Redakcja" class="splitted">Redakcja</a>
+<a href="/reklama" target="_self" title="Reklama" class="splitted">Reklama</a>
+<a href="/kontakt" target="_self" title="Kontakt" class="splitted">Kontakt</a>
+<a href="/zglos-blad" target="_self" title="Zgłoś błąd">Zgłoś błąd</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+<script src="/compiled/styles-tmp-2607dba13c29e022b7eb193d69f05e6a7935a90a.3b542bc1c10eb7c1f55f.js"></script>
+
+
+<script>
+            if (window.rmpl && window.rmpl.run) {
+                /**
+                 * Auth endpoint in Vanilla JS to get user authentication model
+                 * After request we fire webpack bootstrap to load all models
+                 */
+                var xhr = new XMLHttpRequest();
+                xhr.onload = function () {
+                    /**
+                     * User by default unauthorized
+                     */
+                    var UserAuthorizationModel = {
+                        role: null
+                    }
+
+                    if (xhr.status >= 200 && xhr.status < 300) {
+                        /**
+                         * Validate response
+                         */
+                        var data = JSON.parse(xhr.responseText);
+                        var information = (data.data || {}).userinfo;
+
+                        if (information !== void(0) && information.authenticated) {
+                            /**
+                             * Fill in user authorization information
+                             */
+                            UserAuthorizationModel = information;
+                        }
+                    }
+
+                    /**
+                     * Apply public configuration accessible from rmpl.get(root, option)
+                     * and always run webpack bootstrap
+                     */
+                    window.rmpl.apply({"public":{"social.facebook.app_id":585976484911530,"article.comments.live.enabled":true,"article.comments.live.interval_sec":180,"shoutbox.comments.live.enabled":true,"shoutbox.comments.live.interval_sec":180},"notifications":{"refresh.interval_sec":180,"comments.more.step":50,"comments.more.limit":100}});
+                    window.rmpl.run();
+
+                    window.rmpl.registerSiteModel({
+                        paths: {
+                            coverCalendarRepository: '/api/v1/covers.json',
+                            coverRepository: '/api/v1/covers/2000-08-20.json',
+                            matchCalendarRepository: '/api/v1/match-calendar.json',
+                            matchCalendarDayRepository: '/api/v1/match-calendar/2000-08-20.json',
+                        },
+                        User: UserAuthorizationModel
+                    });
+                };
+
+                /**
+                 * Fire Authorization request
+                 */
+                xhr.open('GET', '/api/v1/user/info.json');
+                xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                xhr.send();
+            }
+        </script>
+
+
+<script type="text/javascript">
+    window.ATG_Video_Param = {
+        'type': 'oustreamwin',
+        'zoneid': '5038',
+        'position': 'right'
+    };
+</script>
+<script type="text/javascript" src="//media.oadts.com/www/delivery/video.php?dt=outstreamwin&v=20190916"></script>
+</body>
+</html>
